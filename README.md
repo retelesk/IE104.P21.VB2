@@ -13,3 +13,7 @@ Github Repo cho đồ án môn học IE104
 | ----------- | ----------- | ----------- |
 | Trần Hồng Quân |  |  |
 | Dương Gia Hưng |  |  |
+
+## Tasklist
+- [ ] File thiết kế Figma
+- [ ] Triển khai code
