@@ -1,4 +1,15 @@
 # IE104.P21.VB2
+Github Repo cho đồ án môn học IE104
 
-Link:https://html.rometheme.pro/dexter/contact.html
-Link:https://trueman-react.vercel.app/
+## Danh sách thành viên
+1. Dương Gia Hưng
+2. Trần Hồng Quân
+3. Bổ sung thêm
+4. Bổ sung thêm
+
+## [Link Demo](https://demo.tagdiv.com/newsmag_cars)
+## Bảng phân công nhiệm vụ
+| Họ và tên | Nhiệm vụ | Hoàn thành |
+| ----------- | ----------- | ----------- |
+| Trần Hồng Quân |  |  |
+| Dương Gia Hưng |  |  |
