@@ -1,322 +1,54 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daily News | Racing Coverage</title>
-    <script
-      src="https://kit.fontawesome.com/a25c8d2eff.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" type="text/css" href="./css/resetCss.css" />
-    <link rel="stylesheet" type="text/css" href="./css/home.css" />
-    <link rel="stylesheet" href="./css/detailPage.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Car News</title>
+    <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
+    <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
   </head>
   <body>
-    <header class="header-menu">
-      <div>
-        <div class="hearder-nav">
-          <a clas="header-logo" href="https://retelesk.github.io/IE104.P21.VB2/"
-            ><img src="./images/logo-final.webp"
-          /></a>
-          <nav>
-            <ul>
-              <li><a>Home</a></li>
-              <li><a>Car News</a><i class="fa-solid fa-chevron-down"></i></li>
-              <li><a>Deals</a><i class="fa-solid fa-chevron-down"></i></li>
-              <li><a>Reviews</a><i class="fa-solid fa-chevron-down"></i></li>
-              <li><a>More</a><i class="fa-solid fa-chevron-down"></i></li>
-            </ul>
-          </nav>
-        </div>
-        <i class="fa-solid fa-magnifying-glass header-search"></i>
+    <div id="main">
+      <div id="header">
+        <nav class="container">
+          <ul id="navbar">
+            <li>
+              <img src="./images/logo-final.webp" alt="" />
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li class="has-subnews">
+              <a href="">Car News</a>
+              <ul class="subnavMore">
+                <li><a href="">All</a></li>
+                <li><a href="">AutoShow</a></li>
+                <li><a href="">Future Cars</a></li>
+                <li><a href="">First Drive</a></li>
+                <li><a href="">Motosport</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">More</a>
+              <ul class="subnavMore">
+                <li><a href="">Test</a></li>
+                <li><a href="">Life</a></li>
+                <li><a href="">Turning</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button id="btn-search">
+            <img src="./images/search.png" alt="" />
+          </button>
+        </nav>
       </div>
-    </header>
-
-    <div class="container">
-      <main class="main-content">
-        <article class="article">
-          <div class="social-share">
-            <button class="social-button facebook">Share</button>
-            <button class="social-button twitter">Tweet</button>
-            <button class="social-button email">Email</button>
-            <button class="social-button print">Print</button>
-          </div>
-
-          <header class="article-header">
-            <h1 class="article-title">
-              Scenes from the Pebble Beach Tour d'Elegance
-            </h1>
-          </header>
-
-          <img
-            src="./images/48-1021x580.jpg"
-            alt="Racing car on track"
-            class="article-image"
-          />
-
-          <div class="article-content">
-            <p>
-              The Pebble Beach Tour d'Elegance, now in its 18th year, is an
-              annual tour that adds an extra element of elegance and pageantry
-              offering all Pebble Beach Concours entrants the opportunity to
-              prove their magnificent vehicles are not only stunning display
-              pieces but also functioning automobiles. The tour traces portions
-              of the original 17-Mile Drive, traverses nearby mountains and
-              valleys, and pauses for a time in charming Carmel-by-the-Sea.
-            </p>
-
-            <div class="quote">
-              "SOMETHING FUNDAMENTAL HAS HAPPENED TODAY BECAUSE IT WAS A
-              COMPLETELY DIFFERENT CAR TO THE ONE WE HAD IN FREE PRACTICE."
-            </div>
-
-            <p>
-              After a brief rain in the early morning hours, the skies had
-              cleared for the traditional Thursday tour. The sun was shining
-              brightly as the exotic automobiles lined up at the starting area,
-              despite forecasts of more rain later in the day. Race legend Brian
-              Redman was among the drivers for the special drive.
-            </p>
-
-            <img
-              src="./images/p1.jpg"
-              alt="Multiple racing cars lined up"
-              class="article-image"
-            />
-
-            <p>
-              Participants looped through the 17-Mile Drive and made a return
-              back along Route 1 before heading toward Tehama Golf Club and
-              challenging tight turns on Carmel Valley Road. After stopping at
-              Carmel-by-the-Sea for lunch, the cars continued down Carmel Valley
-              Road to Highway 1 and concluded at the 18th fairway at Pebble
-              Beach where they would be judged on Sunday. If an automobile
-              completed the Tour, it would receive extra consideration in the
-              case of a tie in class on Sunday.
-            </p>
-
-            <img
-              src="./images/p2.jpg"
-              alt="Racing cars on track"
-              class="article-image"
-            />
-
-            <p>
-              While rain came late in the afternoon after the event was over,
-              some of the featured cars were the 1953 Ferrari 250 MM, 1955
-              Mercedes-Benz 300 SL, 1967 Maserati Mistral Spyder, and 1972 BMW
-              3.0 CSL. The 2022 Pebble Beach Concours d'Elegance is the pinnacle
-              event for many car collectors around the world.
-            </p>
-
-            <div class="quote">
-              "IT WAS A TOUGH SESSION. THERE WAS ONLY A VERY SMALL WINDOW TO GET
-              TO THE LAP TIME I NEEDED."
-            </div>
-
-            <p>
-              We interviewed Mark Higgins for his part in setting the current
-              racing lap for the inaugural course. Mark stated he was excited
-              about the modifications to the car this year, and that the new
-              tires performed exceptionally well under the challenging
-              conditions. "These new compounds are almost too sticky for the
-              car," he laughed.
-            </p>
-
-            <p>
-              According to race officials, modifications to the new course
-              included a slight kink at the entry to turn three, additional
-              run-off areas around turns 5 and 6, and a resurfaced exit to the
-              hairpin before the final straight. "All of these changes
-              contribute to a much safer experience for the drivers," stated
-              official Mark Thompson.
-            </p>
-
-            <img
-              src="./images/p3.jpg"
-              alt="Pit crew and race car"
-              class="article-image"
-            />
-
-            <div class="quote">
-              "I THINK THERE'S STILL A LITTLE MORE TO COME FROM THE CAR TOO"
-            </div>
-
-            <p>
-              In summary, the Tour de Elegance proved once again that it's not
-              just about static beauty but also dynamic performance. With
-              sunshine highlighting these automotive treasures against the
-              stunning Pacific coastline, spectators enjoyed a rare chance to
-              see these masterpieces in their natural element. Sunday's main
-              Concours d'Elegance promises to be spectacular, weather
-              permitting.
-            </p>
-          </div>
-
-          <div class="author-bio">
-            <img src="./images/author.jpg" alt="Author photo" />
-            <div class="author-info">
-              <h4>James Wilson</h4>
-              <p>
-                Automotive journalist with over 15 years of experience covering
-                motorsports and classic car events around the world.
-              </p>
-            </div>
-          </div>
-
-          <div class="social-share">
-            <button class="social-button facebook">Share</button>
-            <button class="social-button twitter">Tweet</button>
-            <button class="social-button email">Email</button>
-          </div>
-        </article>
-
-        <h3 style="margin: 20px 0; font-size: 18px">Related Stories</h3>
-
-        <div class="related-posts">
-          <div class="related-post">
-            <img src="./images/45-238x178.jpg" alt="Racing car" />
-            <h4>
-              <a href="#"
-                >Lewis Hamilton tops first practice at Italian Grand Prix</a
-              >
-            </h4>
-          </div>
-          <div class="related-post">
-            <img src="./images/46-238x178.jpg" alt="Racing car" />
-            <h4>
-              <a href="#"
-                >Verstappen closing in on points lead after Belgian win</a
-              >
-            </h4>
-          </div>
-          <div class="related-post">
-            <img src="./images/47-238x178.jpg" alt="Racing car" />
-            <h4>
-              <a href="#"
-                >Classic Jaguar D-Type fetches record amount at auction</a
-              >
-            </h4>
-          </div>
+      <div id="content" class="container">
+        <div id="breadCrumb">
+          Home > Car News > Motorsports > Scenes From the Pebble Beach Tour
+          d’Elegance
         </div>
-
-        <div class="comment-form">
-          <h3>Leave a Reply</h3>
-          <form>
-            <input type="text" placeholder="Name *" required />
-            <input type="email" placeholder="Email *" required />
-            <input type="text" placeholder="Website" />
-            <textarea rows="4" placeholder="Your comment here..."></textarea>
-            <button type="submit">Post Comment</button>
-          </form>
-        </div>
-      </main>
-
-      <aside class="sidebar">
-        <div class="sidebar-widget">
-          <h3>Latest News</h3>
-          <img src="./images/ad-sidebar.jpg" alt="Racing car" />
-          <h4>F1 releases 2025 calendar with 24 races</h4>
-          <p>The 2025 F1 season will be the longest in history...</p>
-        </div>
-
-        <div class="sidebar-widget">
-          <h3>Popular</h3>
-          <ul>
-            <li><a href="#">Top 10 racing circuits in the world</a></li>
-            <li><a href="#">Lewis Hamilton signs new contract</a></li>
-            <li><a href="#">Classic car prices continue to rise</a></li>
-            <li><a href="#">Ferrari unveils new special edition</a></li>
-            <li><a href="#">The best racing games of 2025</a></li>
-          </ul>
-        </div>
-
-        <div class="sidebar-widget">
-          <h3>Categories</h3>
-          <ul>
-            <li><a href="#">Formula 1</a></li>
-            <li><a href="#">NASCAR</a></li>
-            <li><a href="#">IndyCar</a></li>
-            <li><a href="#">WEC</a></li>
-            <li><a href="#">Classic Cars</a></li>
-            <li><a href="#">Auctions</a></li>
-            <li><a href="#">Road Tests</a></li>
-          </ul>
-        </div>
-
-        <div class="sidebar-widget">
-          <h3>Archives</h3>
-          <ul>
-            <li><a href="#">April 2025</a></li>
-            <li><a href="#">March 2025</a></li>
-            <li><a href="#">February 2025</a></li>
-            <li><a href="#">January 2025</a></li>
-            <li><a href="#">December 2024</a></li>
-          </ul>
-        </div>
-      </aside>
+        <div id="banner"></div>
+      </div>
+      <div id="footer"></div>
     </div>
-
-    <footer>
-      <div class="footer-content">
-        <div class="footer-column">
-          <h3>DAILY<span>NEWS</span></h3>
-          <p style="color: #ccc; font-size: 12px">
-            The leading source for motorsport and automotive news, bringing you
-            the latest updates from the racing world.
-          </p>
-          <div style="margin-top: 15px">
-            <a href="#" style="color: #ccc; margin-right: 10px">Facebook</a>
-            <a href="#" style="color: #ccc; margin-right: 10px">Twitter</a>
-            <a href="#" style="color: #ccc; margin-right: 10px">Instagram</a>
-            <a href="#" style="color: #ccc">YouTube</a>
-          </div>
-        </div>
-
-        <div class="footer-column">
-          <h3>POPULAR SECTIONS</h3>
-          <ul>
-            <li><a href="#">Formula 1</a></li>
-            <li><a href="#">NASCAR</a></li>
-            <li><a href="#">IndyCar</a></li>
-            <li><a href="#">MotoGP</a></li>
-            <li><a href="#">WRC</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-column">
-          <h3>FEATURES</h3>
-          <ul>
-            <li><a href="#">Driver Interviews</a></li>
-            <li><a href="#">Tech Analysis</a></li>
-            <li><a href="#">Race Reviews</a></li>
-            <li><a href="#">Car Launches</a></li>
-            <li><a href="#">Testing Updates</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-column">
-          <h3>INFORMATION</h3>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Advertise</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Use</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>&copy; 2025 Daily News. All rights reserved.</p>
-      </div>
-    </footer>
   </body>
 </html>
