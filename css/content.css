@@ -2,6 +2,186 @@
   /* margin-top: 1px; */
   padding: 10px 30px;
   background-color: white;
-  font-size: 10px;
+  font-size: 15px;
   color: gray;
+  font-style: italic;
+}
+
+#banner {
+  position: relative;
+  background-image: url("../images/1021x580/45-1021x580.jpg");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#banner-text h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0 0 5px black;
+}
+
+#banner-text p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+#body-content {
+  display: flex;
+  width: 100%;
+}
+
+#main-content,
+#ads-banner {
+  background-color: white;
+  font-size: 18px;
+  color: black;
+  line-height: 1.6;
+  height: auto;
+  padding: 20px;
+}
+
+#main-content {
+  flex: 0 0 850px;
+}
+
+#ads-banner {
+  flex: 0 0 350px;
+}
+
+#group-button button {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0;
+  cursor: pointer;
+}
+
+.btn-fb {
+  background-color: #628ff0;
+  border-radius: 5px;
+}
+.btn-fb:hover {
+  background-color: #4b8df8;
+}
+.btn-twitter {
+  background-color: #1da1f2;
+  border-radius: 5px;
+}
+.btn-twitter:hover {
+  background-color: #1a91da;
+}
+.btn-youtube {
+  background-color: #ff0000;
+  border-radius: 5px;
+}
+.btn-youtube:hover {
+  background-color: #cc0000;
+}
+.btn-tiktok {
+  background-color: #69c9d0;
+  border-radius: 5px;
+}
+.btn-tiktok:hover {
+  background-color: #57b8b0;
+}
+
+.content-text {
+  padding: 10px 0;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.highlight-text {
+  color: #a801be;
+  padding: 20px;
+  font-style: italic;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.content-img img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.content-img p,
+.content-img-left p,
+.content-img-right p {
+  position: absolute;
+  right: 0;
+  padding: 5px;
+  border-radius: 5px;
+  font-style: italic;
+  color: gray;
+}
+
+.content-img p {
+  bottom: -5px;
+}
+
+.content-img-left p,
+.content-img-right p {
+  bottom: -15px;
+}
+
+.content-img-left,
+.content-img-right {
+  width: 50%;
+  padding: 10px;
+  margin: 0 10px;
+  position: relative;
+}
+.content-img-left {
+  float: left;
+}
+.content-img-right {
+  float: right;
+}
+
+.content-img-left img,
+.content-img-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#ads-banner {
+  padding-left: 20px;
+}
+
+#ads-header {
+  width: 100%;
+  text-align: center;
+}
+
+#ads-header p {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+  font-size: 15px;
 }
