@@ -234,6 +234,29 @@ body {
   border-width: 5px 5px 0 0;
   border-color: var(--dark-grey) transparent transparent transparent;
 }
+/* SECTION MUSTREAD */
+.section-mustRead {
+  background-color: #ffffff;
+}
+.mustRead-info {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  font-size: 13px;
+}
+.mustRead--title {
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--purple);
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-right: 20px;
+}
 /* FOOTER */
 .footer-container {
   background-color: var(--black);
