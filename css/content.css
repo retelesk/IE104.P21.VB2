@@ -102,9 +102,9 @@
 }
 
 .content-text {
-  padding: 10px 0;
+  padding-top: 10px;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .highlight-text {
@@ -184,4 +184,21 @@
   font-style: italic;
   color: gray;
   font-size: 15px;
+}
+
+#ads-button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#ads-button-group button {
+  border: none;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 15px;
+  cursor: pointer;
 }
