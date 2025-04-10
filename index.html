@@ -5,28 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Newsmag Cars</title>
-
+  <!-- Reset lại CSS-->
   <link rel="stylesheet" type="text/css" href="./css/resetCss.css">
-  <link rel="stylesheet" type="text/css" href="./css/home.css">
+  <!-- CSS cho các thành phần dùng chung-->
   <link rel="stylesheet" type="text/css" href="./css/universal.css">
-
+  <!-- CSS cho riêng trang chủ-->
+  <link rel="stylesheet" type="text/css" href="./css/home.css">
+  <!-- Load các font cần thiết-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-
+  <!-- Load icon -->
   <script src="https://kit.fontawesome.com/a25c8d2eff.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+  <!-- Back to top button -->
   <button id="backToTopBtn" class="back-to-top" aria-label="Back to Top">
     <i class="fa-solid fa-chevron-up"></i>
   </button>
+  <!-- phần Menu Header -->
   <header class="header-bar">
     <div class="header-menu">
       <div class="hearder-nav">
+        <!-- Logo Site -->
         <a clas="header-logo" href="https://retelesk.github.io/IE104.P21.VB2/"><img src="./images/logo-final.webp"></a>
+        <!-- NAV Bar chính -->
         <nav class="header-lists">
           <ul>
             <li class="header-item"><a href="#">Home</a></li>
@@ -79,6 +85,7 @@
           </ul>
         </nav>
       </div>
+      <!-- Nút search ở header -->
       <div class="header-searchBox" id="header-search">
         <i class="fa-solid fa-magnifying-glass header-search"></i>
         <form method="get" class="header-search-form disabled" id="header-search-form" action="#">
@@ -89,7 +96,9 @@
 
     </div>
   </header>
+  <!-- Phần thân trang -->
   <div class="container">
+    <!-- Banner dạng carousel -->
     <section class="section-banner">
       <div class="carousel-container">
         <a class="item-1" href="https://demo.tagdiv.com/newsmag_cars/td-post-fia-action-for-road-safety/">
@@ -102,7 +111,9 @@
         <i class="fa-solid fa-chevron-right"></i>
       </div>
     </section>
+    <!-- SECTION TRENDING-->
     <section class="section-trending">
+      <!-- Header section -->
       <div class="trending-info">
         <div class="trending-now--title section-title">
           <h2>Trending Now</h2>
@@ -119,6 +130,7 @@
           </div>
         </div>
       </div>
+      <!-- List tin tức -->
       <div class="trending-lists">
         <a href="#" class="trending-item">
           <img src="./images/300x160/27-300x160.jpg" alt="" class="trending-img">
@@ -195,11 +207,13 @@
 
       </div>
     </section>
+    <!-- Section Must Read -->
     <section class="section-mustRead">
       <div class="mustRead-info">
         <div class="mustRead--title section-title">
           <h2>Must Read</h2>
         </div>
+        <!-- Nút All. Bao gồm các filter -->
         <div class="mustRead-filters">
           <div class="mustRead-pulldown pulldownBtn">
             <p>All</p>
@@ -254,6 +268,7 @@
           </ul>
         </div>
       </div>
+      <!-- Danh sách tin -->
       <div class="mustRead-lists">
         <a class="mustRead-item">
           <img src="./images/300x194/48-300x194.jpg" alt="Must Read section images" class="mustRead-img">
@@ -316,6 +331,7 @@
           <h3 class="mustRead-title">The Superest Supercars from Geneva</h3>
         </a>
       </div>
+      <!-- Nút Prev - Next -->
       <div class="mustRead--next-prev next-prevBtn">
         <div class="prev-box btnDisabled">
           <i class="fa-solid fa-chevron-left"></i>
@@ -325,6 +341,7 @@
         </div>
       </div>
     </section>
+    <!-- Section Social -->
     <section class="section-socialSub">
       <a href="#" class="social-box facebook">
         <i class="fa-brands fa-facebook-f social-icon"></i>
@@ -342,6 +359,7 @@
         <p class="social-name">Subscribers</p>
       </a>
     </section>
+    <!-- Section RECOMMENDED -->
     <section class="section-recommended">
       <article class="recommended-area">
         <div class="recommended-secion--title section-title">
@@ -460,6 +478,7 @@
         </div>
       </aside>
     </section>
+    <!-- Section VIDEO NEWS -->
     <section class="section-videoNews">
       <div class="section-title videoNews-title">
         <h2>Video News</h2>
@@ -471,6 +490,7 @@
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </section>
+    <!-- Section LASTEST ARTICLES -->
     <section class="section-lastestArticles">
       <div class="section-title lastestArticles-title">
         <h2>Lastest Articles
@@ -586,6 +606,7 @@
           </div>
         </a>
       </div>
+      <!-- Menu điều hướng trang -->
       <nav class="page-nav">
         <span class="current">1</span>
         <a href="#" class="page" title="2">2</a>
@@ -596,7 +617,7 @@
         <span class="pages">Page 1 of 10</span>
       </nav>
     </section>
-
+    <!-- FOOTER -->
     <footer class="section-footer">
       <div class="footer-container">
         <div class="footer-item footer-logo">
