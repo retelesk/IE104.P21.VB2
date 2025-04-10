@@ -24,3 +24,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// Fetch dữ liệu từ file JSON
+fetch("../data/dataSample.json")
+  .then((response) => response.json())
+  .then((data) => {
+    data.articles.forEach((article) => {
+      console.log(
+        `Bài viết: ${article.title} | Tác giả: ${article.author.name}`
+      );
+    });
+  });
+
+// Truy cập dữ liệu trực tiếp (nếu đã parse)
+const firstArticle = data.articles[0];
+console.log(firstArticle.thumbnail); // Output URL hình ảnh
