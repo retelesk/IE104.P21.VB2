@@ -453,3 +453,33 @@ a:visited {
 .category-number {
   font-size: inherit;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 670px) {
+  .sub-footer-container {
+    font-size: 1rem;
+  }
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .footer-logo {
+    grid-column: span 2;
+  }
+  .social-icon-wrap {
+    font-size: 2rem;
+  }
+  .social-icon-wrap:first-child {
+    padding-left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .header-menu {
+    padding: 16px 20px;
+  }
+  .hearder-nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
