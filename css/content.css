@@ -349,3 +349,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #444;
 }
+
+.sub-footer-menu {
+  list-style-type: none;
+}
