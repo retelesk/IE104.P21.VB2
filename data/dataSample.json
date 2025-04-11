@@ -1,186 +1,450 @@
-{
-  "articles": [
-    {
-      "id": 1,
-      "title": "VinFast ra mắt mẫu SUV điện VF 9 tại thị trường châu Âu",
-      "thumbnail": "https://example.com/images/vinfast-vf9.jpg",
-      "author": {
-        "name": "Trần Minh Tuấn",
-        "avatar": "https://example.com/avatars/tuan-tran.jpg"
+[
+  {
+    "id": 1,
+    "title": "2023 Tesla Model S Plaid Review",
+    "thumbnail": "https://example.com/tesla-model-s.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar1.jpg",
+        "comment": "Insane acceleration!"
       },
-      "publishedDate": "2023-11-01T09:30:00Z",
-      "commentCount": 56,
-      "tags": ["VinFast", "SUV điện", "Châu Âu"]
-    },
-    {
-      "id": 2,
-      "title": "Toyota Camry 2024: Nâng cấp động cơ hybrid, giá từ 1,2 tỷ đồng",
-      "thumbnail": "https://example.com/images/toyota-camry-2024.jpg",
-      "author": {
-        "name": "Nguyễn Thị Hồng",
-        "avatar": "https://example.com/avatars/hong-nguyen.jpg"
+      {
+        "avatar": "https://example.com/avatar2.jpg",
+        "comment": "Wish I could afford one"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ford F-150 Lightning Electric Truck",
+    "thumbnail": "https://example.com/f150-lightning.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 3,
+    "title": "Porsche 911 GT3 Track Experience",
+    "thumbnail": "https://example.com/911-gt3.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar3.jpg",
+        "comment": "That exhaust note is heavenly"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "How to Change Your Car Oil",
+    "thumbnail": "https://example.com/oil-change.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar4.jpg",
+        "comment": "Great tutorial!"
       },
-      "publishedDate": "2023-10-30T14:15:00Z",
-      "commentCount": 42,
-      "tags": ["Toyota", "Camry", "Hybrid"]
-    },
-    {
-      "id": 3,
-      "title": "Mercedes-Benz EQS 580 2023 - Cú đột phá trong phân khúc xe sang điện",
-      "thumbnail": "https://example.com/images/mercedes-eqs-580.jpg",
-      "author": {
-        "name": "Lê Văn Khôi",
-        "avatar": "https://example.com/avatars/khoi-le.jpg"
+      {
+        "avatar": "https://example.com/avatar5.jpg",
+        "comment": "What oil viscosity do you recommend?"
       },
-      "publishedDate": "2023-10-28T11:20:00Z",
-      "commentCount": 38,
-      "tags": ["Mercedes", "Xe điện", "Xe sang"]
-    },
-    {
-      "id": 4,
-      "title": "Honda CR-V thế hệ mới chính thức trình làng tại Việt Nam",
-      "thumbnail": "https://example.com/images/honda-cr-v-2023.jpg",
-      "author": {
-        "name": "Phạm Quang Anh",
-        "avatar": "https://example.com/avatars/anh-pham.jpg"
+      {
+        "avatar": "https://example.com/avatar6.jpg",
+        "comment": "Saved me $50 at the shop"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Top 10 Family SUVs for 2023",
+    "thumbnail": "https://example.com/family-suvs.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 6,
+    "title": "Tuning a Honda Civic Type R",
+    "thumbnail": "https://example.com/civic-type-r.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar7.jpg",
+        "comment": "That wing is massive!"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Classic Car Restoration: 1969 Mustang",
+    "thumbnail": "https://example.com/classic-mustang.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 8,
+    "title": "Winter Tire Buying Guide",
+    "thumbnail": "https://example.com/winter-tires.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar8.jpg",
+        "comment": "Very helpful for snowy areas"
       },
-      "publishedDate": "2023-10-25T16:45:00Z",
-      "commentCount": 29,
-      "tags": ["Honda", "CR-V", "SUV"]
-    },
-    {
-      "id": 5,
-      "title": "Porsche 911 GT3 RS 2023 - Hiệu suất đỉnh cao dành cho đường đua",
-      "thumbnail": "https://example.com/images/porsche-911-gt3-rs.jpg",
-      "author": {
-        "name": "Vũ Đình Nam",
-        "avatar": "https://example.com/avatars/nam-vu.jpg"
+      {
+        "avatar": "https://example.com/avatar9.jpg",
+        "comment": "When should I switch back to summers?"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Lamborghini Huracan STO First Drive",
+    "thumbnail": "https://example.com/huracan-sto.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 10,
+    "title": "DIY Car Detailing Tips",
+    "thumbnail": "https://example.com/car-detailing.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar10.jpg",
+        "comment": "What's your favorite wax?"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Electric vs Hybrid: Which to Choose?",
+    "thumbnail": "https://example.com/ev-vs-hybrid.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 12,
+    "title": "Off-Roading with Jeep Wrangler Rubicon",
+    "thumbnail": "https://example.com/wrangler-offroad.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar11.jpg",
+        "comment": "That water crossing was intense!"
       },
-      "publishedDate": "2023-10-22T10:10:00Z",
-      "commentCount": 71,
-      "tags": ["Porsche", "911 GT3 RS", "Xe thể thao"]
-    },
-    {
-      "id": 6,
-      "title": "Ford Ranger Raptor 2023: 'Bão tố' trên mọi địa hình",
-      "thumbnail": "https://example.com/images/ford-ranger-raptor.jpg",
-      "author": {
-        "name": "Đỗ Thị Mai",
-        "avatar": "https://example.com/avatars/mai-do.jpg"
+      {
+        "avatar": "https://example.com/avatar12.jpg",
+        "comment": "What lift kit is that?"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "BMW M5 CS Review",
+    "thumbnail": "https://example.com/bmw-m5cs.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 14,
+    "title": "Car Camping Essentials",
+    "thumbnail": "https://example.com/car-camping.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 15,
+    "title": "Toyota GR Corolla Hot Lap",
+    "thumbnail": "https://example.com/gr-corolla.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar13.jpg",
+        "comment": "Such a fun hatchback!"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "How Parallel Parking Works",
+    "thumbnail": "https://example.com/parallel-park.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 17,
+    "title": "McLaren Artura Hybrid Supercar",
+    "thumbnail": "https://example.com/mclaren-artura.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar14.jpg",
+        "comment": "The future of supercars"
       },
-      "publishedDate": "2023-10-20T13:25:00Z",
-      "commentCount": 47,
-      "tags": ["Ford", "Ranger Raptor", "Bán tải"]
-    },
-    {
-      "id": 7,
-      "title": "Lamborghini Revuelto - Siêu xe hybrid đầu tiên của hãng",
-      "thumbnail": "https://example.com/images/lamborghini-revuelto.jpg",
-      "author": {
-        "name": "Hoàng Văn Sơn",
-        "avatar": "https://example.com/avatars/son-hoang.jpg"
+      {
+        "avatar": "https://example.com/avatar15.jpg",
+        "comment": "Still sounds amazing for a hybrid"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Best Dash Cams for 2023",
+    "thumbnail": "https://example.com/dash-cams.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 19,
+    "title": "Drifting a Nissan 350Z",
+    "thumbnail": "https://example.com/350z-drift.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 20,
+    "title": "RV Living: Pros and Cons",
+    "thumbnail": "https://example.com/rv-living.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar16.jpg",
+        "comment": "Been full-time for 3 years!"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Mercedes-AMG One Hypercar Reveal",
+    "thumbnail": "https://example.com/amg-one.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 22,
+    "title": "Basic Car Maintenance Checklist",
+    "thumbnail": "https://example.com/maintenance.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar17.jpg",
+        "comment": "Every new driver should see this"
       },
-      "publishedDate": "2023-10-18T15:30:00Z",
-      "commentCount": 63,
-      "tags": ["Lamborghini", "Siêu xe", "Hybrid"]
-    },
-    {
-      "id": 8,
-      "title": "Kia EV6 giành danh hiệu 'Xe điện của năm' tại châu Âu",
-      "thumbnail": "https://example.com/images/kia-ev6.jpg",
-      "author": {
-        "name": "Nguyễn Thùy Linh",
-        "avatar": "https://example.com/avatars/linh-nguyen.jpg"
+      {
+        "avatar": "https://example.com/avatar18.jpg",
+        "comment": "Forgot to mention cabin air filter"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Audi RS6 Avant Family Wagon",
+    "thumbnail": "https://example.com/rs6-avant.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 24,
+    "title": "Towing Capacity Explained",
+    "thumbnail": "https://example.com/towing-guide.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 25,
+    "title": "Jay Leno's Garage Tour",
+    "thumbnail": "https://example.com/jay-leno.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar19.jpg",
+        "comment": "Legendary collection!"
       },
-      "publishedDate": "2023-10-15T08:50:00Z",
-      "commentCount": 34,
-      "tags": ["Kia", "EV6", "Xe điện"]
-    },
-    {
-      "id": 9,
-      "title": "BMW i7 2023 - Sự kết hợp hoàn hảo giữa sang trọng và công nghệ",
-      "thumbnail": "https://example.com/images/bmw-i7.jpg",
-      "author": {
-        "name": "Trần Đức Mạnh",
-        "avatar": "https://example.com/avatars/manh-tran.jpg"
+      {
+        "avatar": "https://example.com/avatar20.jpg",
+        "comment": "That turbine car is wild"
       },
-      "publishedDate": "2023-10-12T12:40:00Z",
-      "commentCount": 41,
-      "tags": ["BMW", "i7", "Sedan điện"]
-    },
-    {
-      "id": 10,
-      "title": "Hyundai Tucson 2024 ra mắt với công nghệ màn hình cảm ứng kép",
-      "thumbnail": "https://example.com/images/hyundai-tucson-2024.jpg",
-      "author": {
-        "name": "Lý Thị Hương",
-        "avatar": "https://example.com/avatars/huong-ly.jpg"
+      {
+        "avatar": "https://example.com/avatar21.jpg",
+        "comment": "Wish I had that budget"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Chevy Corvette Z06 Track Test",
+    "thumbnail": "https://example.com/c8-z06.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 27,
+    "title": "Car Wash Mistakes to Avoid",
+    "thumbnail": "https://example.com/car-wash.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 28,
+    "title": "Volkswagen ID.4 Real-World Range",
+    "thumbnail": "https://example.com/vw-id4.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar22.jpg",
+        "comment": "How's cold weather performance?"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Ferrari Daytona SP3 First Look",
+    "thumbnail": "https://example.com/daytona-sp3.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 30,
+    "title": "Best First Cars for Teens",
+    "thumbnail": "https://example.com/teen-cars.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 31,
+    "title": "Overlanding Truck Build",
+    "thumbnail": "https://example.com/overlanding.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 32,
+    "title": "Polestar 2 vs Tesla Model 3",
+    "thumbnail": "https://example.com/polestar-vs-tesla.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar23.jpg",
+        "comment": "Polestar has better build quality"
       },
-      "publishedDate": "2023-10-10T17:15:00Z",
-      "commentCount": 28,
-      "tags": ["Hyundai", "Tucson", "SUV"]
-    },
-    {
-      "id": 11,
-      "title": "Audi Q8 e-tron 2023: Nâng cấp pin, tăng tầm hoạt động lên 600km",
-      "thumbnail": "https://example.com/images/audi-q8-etron.jpg",
-      "author": {
-        "name": "Phan Văn Đạt",
-        "avatar": "https://example.com/avatars/dat-phan.jpg"
+      {
+        "avatar": "https://example.com/avatar24.jpg",
+        "comment": "But Tesla's software is ahead"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Restoring a Rusty Land Cruiser",
+    "thumbnail": "https://example.com/fj40-restore.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 34,
+    "title": "Car Theft Prevention Devices",
+    "thumbnail": "https://example.com/anti-theft.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 35,
+    "title": "Bugatti Chiron Top Speed Run",
+    "thumbnail": "https://example.com/chiron.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 36,
+    "title": "Manual Transmission Revival?",
+    "thumbnail": "https://example.com/manual-gearbox.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar25.jpg",
+        "comment": "Save the manuals!"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Best Sounding Exhaust Systems",
+    "thumbnail": "https://example.com/exhausts.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 38,
+    "title": "Cybertruck Production Update",
+    "thumbnail": "https://example.com/cybertruck.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 39,
+    "title": "Vintage Rally Car Collection",
+    "thumbnail": "https://example.com/vintage-rally.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar26.jpg",
+        "comment": "Those Lancia Stratos are priceless"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Car Seat Safety Guide",
+    "thumbnail": "https://example.com/car-seats.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 41,
+    "title": "Lotus Emira First Drive",
+    "thumbnail": "https://example.com/lotus-emira.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 42,
+    "title": "EV Road Trip Planning Tips",
+    "thumbnail": "https://example.com/ev-roadtrip.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar27.jpg",
+        "comment": "ABRP is the best app for this"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Ford Bronco vs Jeep Wrangler",
+    "thumbnail": "https://example.com/bronco-vs-jeep.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 44,
+    "title": "Carbon Fiber Wheel Advantages",
+    "thumbnail": "https://example.com/carbon-wheels.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 45,
+    "title": "Tokyo Car Meet Nightlife",
+    "thumbnail": "https://example.com/tokyo-cars.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar28.jpg",
+        "comment": "Those Bosozoku styles are wild"
       },
-      "publishedDate": "2023-10-08T10:05:00Z",
-      "commentCount": 39,
-      "tags": ["Audi", "Q8 e-tron", "Xe điện"]
-    },
-    {
-      "id": 12,
-      "title": "Mazda CX-90 2024: Thiết kế mới, động cơ inline-6 mạnh mẽ",
-      "thumbnail": "https://example.com/images/mazda-cx-90.jpg",
-      "author": {
-        "name": "Võ Thị Thanh",
-        "avatar": "https://example.com/avatars/thanh-vo.jpg"
+      {
+        "avatar": "https://example.com/avatar29.jpg",
+        "comment": "Wish we had meets like this"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Best Track Day Cars Under $50k",
+    "thumbnail": "https://example.com/track-cars.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 47,
+    "title": "Car Engine Noises Explained",
+    "thumbnail": "https://example.com/engine-sounds.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 48,
+    "title": "Honda S2000 Buyer's Guide",
+    "thumbnail": "https://example.com/s2000.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar30.jpg",
+        "comment": "VTEC just kicked in yo!"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Autonomous Driving Tech Update",
+    "thumbnail": "https://example.com/self-driving.jpg",
+    "commentCount": []
+  },
+  {
+    "id": 50,
+    "title": "World's Fastest Production Cars 2023",
+    "thumbnail": "https://example.com/fastest-cars.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://example.com/avatar31.jpg",
+        "comment": "That SSC Tuatara record was controversial"
       },
-      "publishedDate": "2023-10-05T14:20:00Z",
-      "commentCount": 31,
-      "tags": ["Mazda", "CX-90", "SUV 7 chỗ"]
-    },
-    {
-      "id": 13,
-      "title": "Tesla Model Y 2023 giảm giá 15% tại thị trường Việt Nam",
-      "thumbnail": "https://example.com/images/tesla-model-y.jpg",
-      "author": {
-        "name": "Đặng Văn Hải",
-        "avatar": "https://example.com/avatars/hai-dang.jpg"
-      },
-      "publishedDate": "2023-10-03T11:30:00Z",
-      "commentCount": 89,
-      "tags": ["Tesla", "Model Y", "Xe điện"]
-    },
-    {
-      "id": 14,
-      "title": "Volvo EX90 - SUV điện đầu tiên của Volvo với công nghệ tự lái cấp 4",
-      "thumbnail": "https://example.com/images/volvo-ex90.jpg",
-      "author": {
-        "name": "Bùi Thị Thu",
-        "avatar": "https://example.com/avatars/thu-bui.jpg"
-      },
-      "publishedDate": "2023-09-30T09:45:00Z",
-      "commentCount": 52,
-      "tags": ["Volvo", "EX90", "Tự lái"]
-    },
-    {
-      "id": 15,
-      "title": "Lexus RZ 450e 2023: Đối thủ đáng gờm của Tesla Model X",
-      "thumbnail": "https://example.com/images/lexus-rz-450e.jpg",
-      "author": {
-        "name": "Ngô Văn Tùng",
-        "avatar": "https://example.com/avatars/tung-ngo.jpg"
-      },
-      "publishedDate": "2023-09-28T13:10:00Z",
-      "commentCount": 45,
-      "tags": ["Lexus", "RZ 450e", "Xe điện cao cấp"]
-    }
-  ],
-  "total": 15,
-  "lastUpdated": "2023-11-02T08:00:00Z"
-}
+      {
+        "avatar": "https://example.com/avatar32.jpg",
+        "comment": "Where's the Rimac Nevera?"
+      }
+    ]
+  }
+]
