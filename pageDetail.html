@@ -4,43 +4,112 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car News</title>
-    <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
+    <!-- Reset lại CSS-->
+    <link rel="stylesheet" type="text/css" href="./css/resetCss.css" />
+    <!-- CSS cho các thành phần dùng chung-->
+    <link rel="stylesheet" type="text/css" href="./css/universal.css" />
+    <!-- css for page detail -->
     <link rel="stylesheet" href="./css/content.css" />
-    <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/home.css" />
+    <!-- Load các font cần thiết-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Load icon -->
+    <script
+      src="https://kit.fontawesome.com/a25c8d2eff.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div id="main">
-      <div id="header">
-        <nav class="container">
-          <ul id="navbar">
-            <li>
-              <img src="./images/logo-final.webp" alt="" />
-            </li>
-            <li><a href="index.html">Home</a></li>
-            <li class="has-subnews">
-              <a href="">Car News</a>
-              <ul class="subnavMore">
-                <li><a href="">All</a></li>
-                <li><a href="">AutoShow</a></li>
-                <li><a href="">Future Cars</a></li>
-                <li><a href="">First Drive</a></li>
-                <li><a href="">Motosport</a></li>
+      <!-- header section -->
+      <header class="header-bar">
+        <div class="header-menu">
+          <div class="hearder-nav">
+            <!-- Logo Site -->
+            <a
+              clas="header-logo"
+              href="https://retelesk.github.io/IE104.P21.VB2/"
+              ><img src="./images/logo-final.webp"
+            /></a>
+            <!-- NAV Bar chính -->
+            <nav class="header-lists">
+              <ul>
+                <li class="header-item"><a href="#">Home</a></li>
+                <li class="header-item">
+                  <div class="header-filters">
+                    <div class="header-btn">
+                      <a href="#">Car News</a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <ul class="header-filters-lists">
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Auto Shows</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Classic Cars</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">First Drive</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Future Cars</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Motosports</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header-item"><a href="#">Deals</a></li>
+                <li class="header-item"><a href="#">Reviews</a></li>
+                <li class="header-item">
+                  <div class="header-filters">
+                    <div class="header-btn">
+                      <a href="#">More</a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <ul class="header-filters-lists">
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Tests</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Life</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Turning</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
               </ul>
-            </li>
-            <li>
-              <a href="">More</a>
-              <ul class="subnavMore">
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-              </ul>
-            </li>
-          </ul>
-          <button id="btn-search">
-            <img src="./images/search.png" alt="" />
-          </button>
-        </nav>
-      </div>
+            </nav>
+          </div>
+          <!-- Nút search ở header -->
+          <div class="header-searchBox" id="header-search">
+            <i class="fa-solid fa-magnifying-glass header-search"></i>
+            <form
+              method="get"
+              class="header-search-form disabled"
+              id="header-search-form"
+              action="#"
+            >
+              <input
+                type="text"
+                name="search"
+                value
+                autocomplete="off"
+                class="searchBox"
+              />
+              <input type="submit" value="Search" class="searchBtn" />
+            </form>
+          </div>
+        </div>
+      </header>
+      <!-- body content section -->
       <div id="content" class="container">
         <div id="breadCrumb">
           Home > Car News > Motorsports > Scenes From the Pebble Beach Tour
@@ -53,6 +122,7 @@
           </div>
         </div>
         <div id="body-content">
+          <!-- main content -->
           <div id="main-content">
             <div class="group-button">
               <button class="btn-fb">
@@ -306,6 +376,7 @@
               </form>
             </section>
           </div>
+          <!-- ads content -->
           <div id="ads-banner">
             <div id="ads-header">
               <p>- Advertisement -</p>
@@ -347,6 +418,7 @@
           </div>
         </div>
       </div>
+      <!-- footer section -->
       <footer class="section-footer container">
         <div class="footer-container">
           <div class="footer-item footer-logo">
