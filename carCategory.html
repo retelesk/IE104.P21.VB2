@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car News - Newsmag Cars Demo</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/resetCss.css" />
+    <!-- Universal CSS components -->
+    <link rel="stylesheet" type="text/css" href="./css/universal.css" />
+    <!-- Category page CSS -->
+    <link rel="stylesheet" href="./css/category.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/a25c8d2eff.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="main">
+      <!-- Header section -->
+      <header class="header-bar">
+        <div class="header-menu">
+          <div class="hearder-nav">
+            <!-- Logo Site -->
+            <a
+              clas="header-logo"
+              href="https://retelesk.github.io/IE104.P21.VB2/"
+              ><img src="./images/logo-final.webp"
+            /></a>
+            <!-- NAV Bar chính -->
+            <nav class="header-lists">
+              <ul>
+                <li class="header-item"><a href="#">Home</a></li>
+                <li class="header-item">
+                  <div class="header-filters">
+                    <div class="header-btn">
+                      <a href="#">Car News</a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <ul class="header-filters-lists">
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Auto Shows</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Classic Cars</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">First Drive</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Future Cars</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Motosports</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header-item"><a href="#">Deals</a></li>
+                <li class="header-item"><a href="#">Reviews</a></li>
+                <li class="header-item">
+                  <div class="header-filters">
+                    <div class="header-btn">
+                      <a href="#">More</a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <ul class="header-filters-lists">
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Tests</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Life</a>
+                      </li>
+                      <li class="header-filter-item">
+                        <a href="#" class="header-filter-link">Turning</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- Nút search ở header -->
+          <div class="header-searchBox" id="header-search">
+            <i class="fa-solid fa-magnifying-glass header-search"></i>
+            <form
+              method="get"
+              class="header-search-form disabled"
+              id="header-search-form"
+              action="#"
+            >
+              <input
+                type="text"
+                name="search"
+                value
+                autocomplete="off"
+                class="searchBox"
+              />
+              <input type="submit" value="Search" class="searchBtn" />
+            </form>
+          </div>
+        </div>
+      </header>
+      <!-- Category header -->
+      <div class="category-header">
+        <div class="container">
+          <h1>Car News</h1>
+          <div class="breadcrumb">
+            Home > <span>Car News</span>
+          </div>
+        </div>
+      </div>
+      <!-- Main content -->
+      <div class="container">
+        <div class="content-wrap">
+          <!-- Left column - Articles -->
+          <div class="main-content">
+            <!-- Category navigation tabs -->
+            <div class="category-tabs">
+              <ul>
+                <li><a href="#" class="active">All</a></li>
+                <li><a href="#">Auto Shows</a></li>
+                <li><a href="#">Classic Cars</a></li>
+                <li><a href="#">First Drive</a></li>
+                <li><a href="#">Future Cars</a></li>
+                <li><a href="#">Motorsports</a></li>
+              </ul>
+            </div>
+
+            <!-- Featured article -->
+            <div class="featured-article">
+              <div class="featured-thumb">
+                <a href="pageDetail.html">
+                  <img src="./images/696x385/45-696x385.jpg" alt="Audi Q7">
+                  <span class="article-category">Future Cars</span>
+                </a>
+              </div>
+              <div class="featured-details">
+                <h2><a href="pageDetail.html">2016 Audi Q7's Early Debut at Detroit</a></h2>
+                <div class="article-meta">
+                  <span class="article-author">By <a href="#">Le Phong Vu</a></span>
+                  <span class="article-date">May 10, 2016</span>
+                </div>
+                <div class="article-excerpt">
+                  <p>A breathless session saw a quite staggering 23 cars blanketed by just eight tenths of a second with positions changing at almost every moment. Such was the competitiveness that the ballast-laden VW of Jason Plato could only manage 22nd on the grid, although the double champion has cited...</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Article grid -->
+            <div class="article-grid">
+              <!-- Article 1 -->
+              <div class="grid-item">
+                <div class="article-thumb">
+                  <a href="#">
+                    <img src="./images/218x150/88-218x150.jpg" alt="BFGoodrich Tires">
+                    <span class="article-category">First Drive</span>
+                  </a>
+                </div>
+                <div class="article-details">
+                  <h3><a href="#">BFGoodrich Unveils G-Force Tires</a></h3>
+                  <div class="article-meta">
+                    <span class="article-date">May 10, 2016</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Article 2 -->
+              <div class="grid-item">
+                <div class="article-thumb">
+                  <a href="#">
+                    <img src="./images/218x150/87-218x150.jpg" alt="Car Financing">
+                    <span class="article-category">Auto Shows</span>
+                  </a>
+                </div>
+                <div class="article-details">
+                  <h3><a href="#">New Car Financing and Cash Back</a></h3>
+                  <div class="article-meta">
+                    <span class="article-date">May 10, 2016</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Article 3 -->
+              <div class="grid-item">
+                <div class="article-thumb">
+                  <a href="#">
+                    <img src="./images/218x150/86-218x150.jpg" alt="Car Deals">
+                    <span class="article-category">Deals</span>
+                  </a>
+                </div>
+                <div class="article-details">
+                  <h3><a href="#">10 Best Car Deals of the Month</a></h3>
+                  <div class="article-meta">
+                    <span class="article-date">May 10, 2016</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Article 4 -->
+              <div class="grid-item">
+                <div class="article-thumb">
+                  <a href="#">
+                    <img src="./images/218x150/85-218x150.jpg" alt="Lamborghini">
+                    <span class="article-category">Classic Cars</span>
+                  </a>
+                </div>
+                <div class="article-details">
+                  <h3><a href="#">Out-of-This-World Mansory Lamborghini Aventador</a></h3>
+                  <div class="article-meta">
+                    <span class="article-date">May 10, 2016</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Article 5 -->
+              <div class="grid-item">
+                <div class="article-thumb">
+                  <a href="#">
+                    <img src="./images/218x150/84-218x150.jpg" alt="Ferrari">
+                    <span class="article-category">Future Cars</span>
+                  </a>
+                </div>
+                <div class="article-details">
+                  <h3><a href="#">Fiat Sells Off Ferrari</a></h3>
+                  <div class="article-meta">
+                    <span class="article-date">May 10, 2016</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Article 6 -->
+              <div class="grid-item">
+                <div class="article-thumb">
+                  <a href="#">
+                    <img src="./images/218x150/81-218x150.jpg" alt="Supercar">
+                    <span class="article-category">Motorsports</span>
+                  </a>
+                </div>
+                <div class="article-details">
+                  <h3><a href="#">The Superest Supercars from Geneva</a></h3>
+                  <div class="article-meta">
+                    <span class="article-date">May 10, 2016</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Article 7 -->
+              <div class="grid-item">
+                <div class="article-thumb">
+                  <a href="#">
+                    <img src="./images/218x150/78-218x150.jpg" alt="Auto Show">
+                    <span class="article-category">Auto Shows</span>
+                  </a>
+                </div>
+                <div class="article-details">
+                  <h3><a href="#">Our Picks for the Very Best from the 2015 Auto Show</a></h3>
+                  <div class="article-meta">
+                    <span class="article-date">May 10, 2016</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Article 8 -->
+              <div class="grid-item">
+                <div class="article-thumb">
+                  <a href="#">
+                    <img src="./images/218x150/83-218x150.jpg" alt="Scenes">
+                    <span class="article-category">Motorsports</span>
+                  </a>
+                </div>
+                <div class="article-details">
+                  <h3><a href="#">Scenes From the Pebble Beach Tour d'Elegance</a></h3>
+                  <div class="article-meta">
+                    <span class="article-date">May 10, 2016</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+              <span class="current">1</span>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#" class="next">Next →</a>
+            </div>
+          </div>
+
+          <!-- Right column - Sidebar -->
+          <aside class="sidebar">
+            <!-- Ad banner -->
+            <div class="sidebar-widget ad-widget">
+              <p class="ad-label">- Advertisement -</p>
+              <div class="ad-container">
+                <img src="./images/ad-sidebar.jpg" alt="Advertisement">
+              </div>
+            </div>
+
+            <!-- Social buttons -->
+            <div class="sidebar-widget social-widget">
+              <div class="social-buttons">
+                <a href="#" class="btn-fb">
+                  <img src="./images/24x24/facebook-logo.png" alt="Facebook">
+                </a>
+                <a href="#" class="btn-youtube">
+                  <img src="./images/24x24/youtube.png" alt="YouTube">
+                </a>
+                <a href="#" class="btn-tiktok">
+                  <img src="./images/24x24/tik-tok.png" alt="TikTok">
+                </a>
+              </div>
+            </div>
+
+            <!-- Recent posts -->
+            <div class="sidebar-widget recent-posts">
+              <h3 class="widget-title">Recent Posts</h3>
+              <ul class="post-list">
+                <li><a href="#">BFGoodrich Unveils G-Force Tires</a></li>
+                <li><a href="#">New Car Financing and Cash Back</a></li>
+                <li><a href="#">10 Best Car Deals of the Month</a></li>
+                <li><a href="#">Out-of-This-World Mansory Lamborghini Aventador</a></li>
+                <li><a href="#">Fiat Sells Off Ferrari</a></li>
+              </ul>
+            </div>
+
+            <!-- Categories -->
+            <div class="sidebar-widget categories">
+              <h3 class="widget-title">Categories</h3>
+              <ul class="category-list">
+                <li><a href="#">All</a></li>
+                <li><a href="#">Auto Shows</a></li>
+                <li><a href="#">Classic Cars</a></li>
+                <li><a href="#">First Drive</a></li>
+                <li><a href="#">Future Cars</a></li>
+                <li><a href="#">Motorsports</a></li>
+              </ul>
+            </div>
+
+            <!-- Popular tag cloud -->
+            <div class="sidebar-widget tag-cloud">
+              <h3 class="widget-title">Popular Tags</h3>
+              <div class="tags">
+                <a href="#" class="tag">BMW</a>
+                <a href="#" class="tag">Mercedes</a>
+                <a href="#" class="tag">Audi</a>
+                <a href="#" class="tag">Tesla</a>
+                <a href="#" class="tag">Porsche</a>
+                <a href="#" class="tag">Ferrari</a>
+                <a href="#" class="tag">Ford</a>
+                <a href="#" class="tag">Lamborghini</a>
+                <a href="#" class="tag">SUV</a>
+                <a href="#" class="tag">Electric</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+      <!-- Footer section -->
+      <footer class="section-footer container">
+        <div class="footer-container">
+          <div class="footer-item footer-logo">
+            <div class="footer-logo-wrap">
+              <img src="./images/logo-footer.webp" alt="Logo footer" />
+            </div>
+            <div class="footer-text-wrap">
+              <p>
+                Newsmag is your news, entertainment, music fashion website. We
+                provide you with the latest breaking news and videos straight
+                from the entertainment industry.
+              </p>
+              <div class="footer-email-wrap">
+                <p>Contact us:</p>
+                <a href="mailto:tranhongquan.jb@gmail.com"
+                  >tranhongquan.jb@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="footer-social-wrap">
+              <a href="#" class="social-icon-wrap"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="#" class="social-icon-wrap"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="#" class="social-icon-wrap"
+                ><i class="fa-brands fa-square-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-item footer-news">
+            <div class="footer-item-titleBox">
+              <h4 class="footer-item--title">EVEN MORE NEWS</h4>
+            </div>
+            <div class="footer-item-lists news-list">
+              <a
+                href="https://demo.tagdiv.com/newsmag_cars/td-post-bfgoodrich-unveils-g-force-tires/"
+                class="footer-item--content"
+              >
+                <div class="footer-item--thumb">
+                  <img src="./images/100x75/88-100x75.jpg" alt="news-img" />
+                </div>
+                <div class="footer-item--details">
+                  <h3 class="footer-item--titleDetails">
+                    BFGoodrich Unveils G-Force Tires
+                  </h3>
+                  <p class="footer-item--date">May 10, 2016</p>
+                </div>
+              </a>
+              <a
+                href="https://demo.tagdiv.com/newsmag_cars/td-post-bfgoodrich-unveils-g-force-tires/"
+                class="footer-item--content"
+              >
+                <div class="footer-item--thumb">
+                  <img src="./images/100x75/87-100x75.jpg" alt="news-img" />
+                </div>
+                <div class="footer-item--details">
+                  <h3 class="footer-item--titleDetails">
+                    New Car Financing and Cash Back
+                  </h3>
+                  <p class="footer-item--date">May 10, 2016</p>
+                </div>
+              </a>
+              <a
+                href="https://demo.tagdiv.com/newsmag_cars/td-post-bfgoodrich-unveils-g-force-tires/"
+                class="footer-item--content"
+              >
+                <div class="footer-item--thumb">
+                  <img src="../images/100x75/86-100x75.jpg" alt="news-img" />
+                </div>
+                <div class="footer-item--details">
+                  <h3 class="footer-item--titleDetails">
+                    10 Best Car Deals of the Month
+                  </h3>
+                  <p class="footer-item--date">May 10, 2016</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="footer-item footer-category">
+            <div class="footer-item-titleBox">
+              <h4 class="footer-item--title">Popular category</h4>
+            </div>
+            <div class="footer-item-lists">
+              <ul class="category-list">
+                <li>
+                  <a
+                    href="https://demo.tagdiv.com/newsmag_cars/td-post-bfgoodrich-unveils-g-force-tires/"
+                    class="footer-item--content popular-category"
+                  >
+                    <h3 class="footer-item--titleDetails category-title">
+                      Future Cars
+                    </h3>
+                    <p class="footer-item--date category-number">8</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://demo.tagdiv.com/newsmag_cars/td-post-bfgoodrich-unveils-g-force-tires/"
+                    class="footer-item--content popular-category"
+                  >
+                    <h3 class="footer-item--titleDetails category-title">
+                      First Drive
+                    </h3>
+                    <p class="footer-item--date category-number">8</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://demo.tagdiv.com/newsmag_cars/td-post-bfgoodrich-unveils-g-force-tires/"
+                    class="footer-item--content popular-category"
+                  >
+                    <h3 class="footer-item--titleDetails category-title">
+                      Technology
+                    </h3>
+                    <p class="footer-item--date category-number">8</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://demo.tagdiv.com/newsmag_cars/td-post-bfgoodrich-unveils-g-force-tires/"
+                    class="footer-item--content popular-category"
+                  >
+                    <h3 class="footer-item--titleDetails category-title">
+                      Classic Cars
+                    </h3>
+                    <p class="footer-item--date category-number">8</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://demo.tagdiv.com/newsmag_cars/td-post-bfgoodrich-unveils-g-force-tires/"
+                    class="footer-item--content popular-category"
+                  >
+                    <h3 class="footer-item--titleDetails category-title">
+                      Auto Shows
+                    </h3>
+                    <p class="footer-item--date category-number">8</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://demo.tagdiv.com/newsmag_cars/td-post-bfgoodrich-unveils-g-force-tires/"
+                    class="footer-item--content popular-category"
+                  >
+                    <h3 class="footer-item--titleDetails category-title">
+                      Motorsports
+                    </h3>
+                    <p class="footer-item--date category-number">8</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://demo.tagdiv.com/newsmag_cars/td-post-bfgoodrich-unveils-g-force-tires/"
+                    class="footer-item--content popular-category"
+                  >
+                    <h3 class="footer-item--titleDetails category-title">
+                      Reviews
+                    </h3>
+                    <p class="footer-item--date category-number">8</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sub-footer-container">
+          <div class="sub-footer-copy">
+            <p>© Copyright - UIT</p>
+          </div>
+
+          <ul class="sub-footer-menu">
+            <li class="sub-footer-menu-item">
+              <a href="#">About</a>
+            </li>
+            <li class="sub-footer-menu-item">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,5 +1,5 @@
+/* Breadcrumb styles */
 #breadCrumb {
-  /* margin-top: 1px; */
   padding: 10px 30px;
   background-color: white;
   font-size: 15px;
@@ -7,15 +7,19 @@
   font-style: italic;
 }
 
+/* Banner styles - now responsive */
 #banner {
   position: relative;
   background-image: url("../images/1021x580/45-1021x580.jpg");
   width: 100%;
-  height: 600px;
+  height: auto;
+  min-height: 300px;
+  padding-top: 45%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
 #banner-text {
   position: absolute;
   bottom: 0;
@@ -24,6 +28,7 @@
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 #banner-text h1 {
   color: white;
   font-size: 40px;
@@ -38,9 +43,12 @@
   text-align: center;
   font-style: italic;
 }
+
+/* Body content layout - now responsive */
 #body-content {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 #main-content,
@@ -54,13 +62,15 @@
 }
 
 #main-content {
-  flex: 0 0 850px;
+  flex: 1 1 600px;
 }
 
 #ads-banner {
-  flex: 0 0 350px;
+  flex: 1 1 300px;
+  padding-left: 20px;
 }
 
+/* Button styles */
 .group-button button {
   border: none;
   padding: 10px 20px;
@@ -76,31 +86,39 @@
   background-color: #628ff0;
   border-radius: 5px;
 }
+
 .btn-fb:hover {
   background-color: #4b8df8;
 }
+
 .btn-twitter {
   background-color: #1da1f2;
   border-radius: 5px;
 }
+
 .btn-twitter:hover {
   background-color: #1a91da;
 }
+
 .btn-youtube {
   background-color: #ff0000;
   border-radius: 5px;
 }
+
 .btn-youtube:hover {
   background-color: #cc0000;
 }
+
 .btn-tiktok {
   background-color: #69c9d0;
   border-radius: 5px;
 }
+
 .btn-tiktok:hover {
   background-color: #57b8b0;
 }
 
+/* Content text styles */
 .content-text {
   padding-top: 10px;
   font-size: 18px;
@@ -116,6 +134,7 @@
   text-align: center;
 }
 
+/* Image styles - now responsive */
 .content-img {
   position: relative;
   width: 100%;
@@ -156,9 +175,11 @@
   margin: 0 10px;
   position: relative;
 }
+
 .content-img-left {
   float: left;
 }
+
 .content-img-right {
   float: right;
 }
@@ -170,10 +191,7 @@
   border-radius: 10px;
 }
 
-#ads-banner {
-  padding-left: 20px;
-}
-
+/* Ads banner styles */
 #ads-header {
   width: 100%;
   text-align: center;
@@ -238,6 +256,7 @@
   color: #a801be;
 }
 
+/* Navigation between articles */
 .next-prev-article {
   margin-top: 40px;
   border-top: 1px solid #e6e6e6d5;
@@ -245,6 +264,7 @@
   border-bottom: 1px solid #e6e6e6d5;
   margin-bottom: 40px;
 }
+
 #next-prev {
   display: flex;
   justify-content: space-between;
@@ -253,12 +273,14 @@
   font-size: 15px;
   color: gray;
 }
+
 #np-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+
 #np-content a {
   text-decoration: none;
   font-size: 18px;
@@ -271,6 +293,7 @@
   color: #a801be;
 }
 
+/* Author section */
 .author {
   display: flex;
   margin-bottom: 40px;
@@ -291,6 +314,7 @@
   border-radius: 5px;
 }
 
+/* Comment section */
 .comment-section h2 {
   font-size: 20px;
   font-weight: bold;
@@ -352,4 +376,128 @@ button[type="submit"]:hover {
 
 .sub-footer-menu {
   list-style-type: none;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 992px) {
+  #body-content {
+    flex-direction: column;
+  }
+  
+  #main-content,
+  #ads-banner {
+    flex: 1 1 100%;
+  }
+  
+  #banner {
+    padding-top: 55%;
+  }
+  
+  #banner-text h1 {
+    font-size: 30px;
+  }
+  
+  .ads-post h3 {
+    width: auto;
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-img-left,
+  .content-img-right {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+  }
+  
+  #banner {
+    padding-top: 65%;
+    min-height: 200px;
+  }
+  
+  #banner-text h1 {
+    font-size: 24px;
+  }
+  
+  #banner-text p {
+    font-size: 16px;
+  }
+  
+  .highlight-text {
+    font-size: 24px;
+    padding: 15px 10px;
+  }
+  
+  #np-content {
+    flex-direction: column;
+  }
+  
+  #np-content p {
+    margin-bottom: 10px;
+  }
+  
+  #ads-button-group button {
+    padding: 15px 15px;
+    margin: 0 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #breadCrumb {
+    padding: 8px 15px;
+    font-size: 13px;
+  }
+  
+  #banner-text h1 {
+    font-size: 20px;
+  }
+  
+  .content-text {
+    font-size: 16px;
+  }
+  
+  .highlight-text {
+    font-size: 20px;
+    padding: 10px 5px;
+  }
+  
+  .group-button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .group-button button {
+    margin: 4px;
+  }
+  
+  .author {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .author img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  #next-prev {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #next-prev p:first-child {
+    margin-bottom: 5px;
+  }
+  
+  #ads-button-group {
+    flex-wrap: wrap;
+  }
+  
+  #ads-button-group button {
+    padding: 10px 10px;
+    margin: 5px;
+  }
 }
