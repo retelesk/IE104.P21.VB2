@@ -9,7 +9,7 @@
     <!-- CSS cho các thành phần dùng chung-->
     <link rel="stylesheet" type="text/css" href="./css/universal.css" />
     <!-- css for page detail -->
-    <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./css/news.css" />
     <!-- Load các font cần thiết-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -104,7 +104,7 @@
                 autocomplete="off"
                 class="searchBox"
               />
-              <input type="submit" value="Search" class="searchBtn" />
+              <input type="submit" value="search" class="searchBtn" />
             </form>
           </div>
         </div>
@@ -112,7 +112,8 @@
       <!-- body content section -->
       <div id="content" class="container">
         <div id="breadCrumb">
-          Home > Car News > Motorsports > Scenes From the Pebble Beach Tour
+          <a href="./index.html">Home</a> > <a href="">Car News</a> >
+          <a href="">Motorsports</a> > Scenes From the Pebble Beach Tour
           d’Elegance
         </div>
         <div id="banner">
@@ -331,7 +332,6 @@
                   <label for="comment">Comment:</label>
                   <textarea id="comment" name="comment" required></textarea>
                 </div>
-
                 <div class="form-group">
                   <label for="name">Name:</label>
                   <input
@@ -342,7 +342,6 @@
                     required
                   />
                 </div>
-
                 <div class="form-group">
                   <label for="email">Email:</label>
                   <input
@@ -353,17 +352,6 @@
                     required
                   />
                 </div>
-
-                <div class="form-group">
-                  <label for="website">Website:</label>
-                  <input
-                    type="url"
-                    id="website"
-                    name="website"
-                    placeholder="Website:"
-                  />
-                </div>
-
                 <div class="checkbox-container">
                   <input type="checkbox" id="save-info" name="save-info" />
                   <label for="save-info"
@@ -371,7 +359,6 @@
                     next time I comment.</label
                   >
                 </div>
-
                 <button type="submit">Post Comment</button>
               </form>
             </section>
@@ -602,5 +589,6 @@
         </div>
       </footer>
     </div>
+    <script src="./js/headerOtherPage.js  "></script>
   </body>
 </html>

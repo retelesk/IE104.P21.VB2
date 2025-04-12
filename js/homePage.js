@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("header-search")
     .addEventListener("click", function () {
+      console.log("button clicked");
+
       document
         .getElementById("header-search-form")
         .classList.toggle("disabled");
