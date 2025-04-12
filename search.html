@@ -3,21 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Car News</title>
-    <!-- Reset lại CSS-->
+    <title>Car News - Newsmag Cars Demo</title>
+    <!-- Reset CSS -->
     <link rel="stylesheet" type="text/css" href="./css/resetCss.css" />
-    <!-- CSS cho các thành phần dùng chung-->
+    <!-- Universal CSS components -->
     <link rel="stylesheet" type="text/css" href="./css/universal.css" />
-    <!-- css for page detail -->
+    <!-- page css -->
     <link rel="stylesheet" href="./css/news.css" />
-    <!-- Load các font cần thiết-->
+    <link rel="stylesheet" href="./css/search.css" />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <!-- Load icon -->
+    <!-- Icons -->
     <script
       src="https://kit.fontawesome.com/a25c8d2eff.js"
       crossorigin="anonymous"
@@ -25,7 +26,7 @@
   </head>
   <body>
     <div id="main">
-      <!-- header section -->
+      <!-- Header section -->
       <header class="header-bar">
         <div class="header-menu">
           <div class="hearder-nav">
@@ -104,259 +105,26 @@
           </div>
         </div>
       </header>
-      <!-- body content section -->
+      <!-- body-content -->
       <div id="content" class="container">
-        <div id="breadCrumb">
-          <a href="./index.html">Home</a> > <a href="">Car News</a> >
-          <a href="">Motorsports</a> > Scenes From the Pebble Beach Tour
-          d’Elegance
-        </div>
-        <div id="banner">
-          <div id="banner-text">
-            <h1>2016 Audi Q7’s Early Debute at Detroit</h1>
-            <p>By Le Phong Vu - May 10, 2025</p>
-          </div>
-        </div>
+        <div id="breadCrumb"><a href="./index.html">Home</a> > Search</div>
         <div id="body-content">
           <!-- main content -->
           <div id="main-content">
-            <div class="group-button">
-              <button class="btn-fb">
-                <img src="./images/24x24/facebook-logo.png" alt="fb-logo" />
-              </button>
-              <button class="btn-twitter">
-                <img src="./images/24x24/twitter.png" alt="x-logo" />
-              </button>
-              <button class="btn-youtube">
-                <img src="./images/24x24/youtube.png" alt="youtube-logo" />
-              </button>
-              <button class="btn-tiktok">
-                <img src="./images/24x24/tik-tok.png" alt="tiktok-logo" />
-              </button>
-            </div>
             <section>
-              <p class="content-text">
-                A breathless session saw a quite staggering 23 cars blanketed by
-                just eight tenths of a second with positions changing at almost
-                every moment. Such was the competitiveness that the
-                ballast-laden VW of Jason Plato could only manage 22nd on the
-                grid, although the double champion has cited an as yet unknown
-                problem with his Team BMR RCIB Insurance machine. Jason Plato,
-                right after the race:
-              </p>
-              <p class="highlight-text">
-                "Something fundamental has happened today because it was a
-                completely different car to the one we had in free practice"
-              </p>
-              <p class="content-text">
-                Sam Tordoff looked to have stolen pole position from under the
-                nose of Motorbase Performances Mat Jackson, with the latter
-                combination going for their first ever P1 in qualifying.
-                Tordoff’s BMW 125i M Sport flashed across the line to move to
-                the summit with just two minutes to go.
-              </p>
-              <div class="content-img">
-                <img src="./images/p1.jpg" alt="image-1" />
-                <p>First 6 Line-up</p>
+              <div id="search-result">
+                <h1><span id="keyword"></span> - search result</h1>
               </div>
-              <p class="content-text">
-                Tordoff and Jackson held on to second and third, while WSR’s Rob
-                Collard moved into fourth after recovering from an off-track
-                excursion during one of his late flyers. Gordon Shedden who had
-                dominated both practice sessions earlier in the day had to
-                settle for fifth, just 0.005s off the second row pace. It could
-                have been better for the Scotsman but one of his fastest
-                attempts was scuppered when his Honda Yuasa Racing team-mate
-                Matt Neal went off, bringing about one of red flag periods. The
-                2012 champion shook his head as he returned to the pitlane,
-                possibly in the knowledge that his best opportunity had been
-                wasted.
-              </p>
-              <p class="content-text">
-                Regular Knockhill front row starter Rob Austin could only manage
-                sixth this time around, but it still represented his best
-                performance of the season in the Exocet AlcoSense Audi A4. Neal
-                held on to seventh despite his spin.
-              </p>
-            </section>
-            <section>
-              <div class="content-img-left">
-                <img src="./images/p2.jpg" alt="image-2" />
-                <p>Andrew Jordan – MG</p>
+              <div id="header-searchBox">
+                <input
+                  type="text"
+                  name="search"
+                  value
+                  autocomplete="off"
+                  class="searchBox"
+                />
+                <button type="button" class="searchBtn">Search</button>
               </div>
-              <p class="content-text">
-                MG’s Andrew Jordan took eighth with his last attempt also ruined
-                after he ran wide and into the gravel in his Pirtek-backed MG6.
-              </p>
-              <p class="content-text">
-                Ninth wouldn’t normally be something to celebrate for Colin
-                Turkington, but the reigning champion was Team BMR RCIB
-                Insurance’s top performer and he also maintained his record of
-                qualifying inside the top ten of every 2015 event. Adam Morgan’s
-                WIX Racing Mercedes was relegated to tenth by Turkington with
-                the duo split by just 0.001s. Unbelievably close gaps continued
-                throughout the order with the likes of Snetterton race winner
-                Jack Goff, Aron Smith and Plato.
-              </p>
-            </section>
-            <section>
-              <p class="content-text">
-                Plato was another to abort his last flyer attempt following a
-                trip through the gravel and the double champion had to settle
-                for the lowest grid position in his BTCC career the championship
-                leader will have it all to do from 22nd on the grid. Plato has
-                suggested, however, that he’ll likely start from the pitlane as
-                he did at Croft earlier this season in a bid to grab pole
-                position for race two.
-              </p>
-              <p class="highlight-text">
-                “It was a tough session, there was only a very short window to
-                squeeze the lap TIME I NEEDED”
-              </p>
-              <p class="content-text">
-                He continued: “It’s dangerous to expect anything, I knew coming
-                into the weekend that we’d be strong, but to be fair I’ve had to
-                get my head around the circuit, it’s been a long time since I
-                raced here! A few things have changed, the kerbs are different
-                through the chicane for example which makes a big difference.
-                The track was going up and down in grip level, and while it
-                didn’t drop massively it was pretty greasy and in those
-                conditions it’s very easy to make a mistake. I knew that we had
-                to be out there and get that free lap, and we stole it right at
-                the end which is mega really.
-              </p>
-              <p class="content-text">
-                Gordon Shedden made it a significant double in the second
-                practice session as the Scotsman fired out a warning ahead of
-                this afternoon’s Dunlop MSA British Touring Car Championship
-                qualifying session.
-              </p>
-              <div class="content-img">
-                <img src="./images/p3.jpg" alt="image-3" />
-                <p>Pit Stop Madness</p>
-              </div>
-              <p class="content-text">
-                It’s important that we do it when it matters though and that’s
-                in qualifying. It’s going okay but I’m sure the others will find
-                some time too. Honda Yuasa Racing’s Shedden became the first and
-                only driver to break the 52 second barrier in either of the
-                practice sessions and now his Civic Type R, which shed some
-                success ballast coming into the event, looks in particularly
-                good shape for the weekend.
-              </p>
-              <p class="content-text">
-                It was another Honda one-two in the second practice session, but
-                maybe not the combination you will have expected as the
-                Independent Eurotech-run Honda Civic of Jeff Smith claimed
-                second. Smith topped FP2 for much of the running but also had to
-                recover from an off-track moment on the very next lap after
-                setting his benchmark.
-              </p>
-              <p class="content-text">
-                Despite dropping to second at the finish, Smith was delighted
-                with his progress. I’m really pleased with that, he enthused. I
-                had a bit of a scary moment at the jump after having an off but
-                we won’t dwell on that. The pace is in the car but I actually
-                think there’s more to come from me so that bodes well for this
-                afternoon.
-              </p>
-            </section>
-            <section>
-              <div class="content-img-right">
-                <img src="./images/p4.jpg" alt="image-4" />
-                <p>Jeff Smith Runner Up</p>
-              </div>
-              <p class="content-text">
-                Smith wasn’t the only driver to return to the track relatively
-                unscathed after a spin as both the Honda of Matt Neal and Ford
-                Focus of Alex Martin also endured moments during the session.
-              </p>
-              <p class="content-text">
-                West Surrey Racing again showed well in third, fifth and seventh
-                respectively with championship challenger Sam Tordoff getting
-                the better of his more experienced team-mates Andy Priaulx and
-                Rob Collard.
-              </p>
-              <p class="content-text">
-                Mat Jackson and Andrew Jordan proved that they’ll be in the mix
-                again this afternoon with solid top six results in practice.
-                Adam Morgan, Jason Plato and Tom Ingram.
-              </p>
-            </section>
-            <section>
-              <p class="content-text">
-                Morgan again left it late to fire his Mercedes A-Class up the
-                order while Plato’s Team BMR RCIB Insurance squad admits it may
-                not be setting the ultimate pace this weekend. Speedworks again
-                broke into the leading ten with Ingram, but its achilles heel
-                seems to be getting much beyond that. Qualifying will determine
-                whether Ingram can haul his Toyota Avensis into the fight for a
-                top six grid berth.
-              </p>
-            </section>
-            <section class="next-prev-article">
-              <div id="next-prev">
-                <p>Previous Article</p>
-                <p>Next Article</p>
-              </div>
-              <div id="np-content">
-                <p><a href="">The Superest Supercars from Geneva</a></p>
-                <p>
-                  <a href=""
-                    >Our Picks for the Very Best from the 2015 Auto Show</a
-                  >
-                </p>
-              </div>
-            </section>
-            <section>
-              <div class="author">
-                <img src="./images/author.jpg" alt="author" />
-                <div class="author-text">
-                  <h3>Le Phong Vu</h3>
-                  <p>
-                    Vu is a car enthusiast and a writer for Car News. He has a
-                    passion for cars and enjoys sharing her knowledge with
-                    others.
-                  </p>
-                </div>
-              </div>
-            </section>
-            <section class="comment-section">
-              <h2>Leave a Reply</h2>
-              <form id="comment-form">
-                <div class="form-group">
-                  <label for="comment">Comment:</label>
-                  <textarea id="comment" name="comment" required></textarea>
-                </div>
-                <div class="form-group">
-                  <label for="name">Name:</label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Name:*"
-                    required
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Email:*"
-                    required
-                  />
-                </div>
-                <div class="checkbox-container">
-                  <input type="checkbox" id="save-info" name="save-info" />
-                  <p>
-                    Save my name, email, and website in this browser for the
-                    next time I comment.
-                  </p>
-                </div>
-                <button type="submit">Post Comment</button>
-              </form>
             </section>
           </div>
           <!-- ads content -->
@@ -401,7 +169,7 @@
           </div>
         </div>
       </div>
-      <!-- footer section -->
+      <!-- Footer section -->
       <footer class="section-footer container">
         <div class="footer-container">
           <div class="footer-item footer-logo">
@@ -585,6 +353,7 @@
         </div>
       </footer>
     </div>
-    <script src="./js/headerOtherPage.js  "></script>
+    <script src="./js/headerOtherPage.js"></script>
+    <script src="./js/search.js"></script>
   </body>
 </html>
