@@ -91,12 +91,7 @@
           <!-- Nút search ở header -->
           <div class="header-searchBox" id="header-search">
             <i class="fa-solid fa-magnifying-glass header-search"></i>
-            <form
-              method="get"
-              class="header-search-form disabled"
-              id="header-search-form"
-              action="#"
-            >
+            <div class="header-search-form disabled" id="header-search-form">
               <input
                 type="text"
                 name="search"
@@ -104,8 +99,8 @@
                 autocomplete="off"
                 class="searchBox"
               />
-              <input type="submit" value="search" class="searchBtn" />
-            </form>
+              <button type="button" class="searchBtn">Search</button>
+            </div>
           </div>
         </div>
       </header>
@@ -313,16 +308,17 @@
                 </p>
               </div>
             </section>
-            <section class="author">
-              <img src="./images/author.jpg" alt="author" />
-              <div class="author-text">
-                <h3>Le Phong Vu</h3>
-                <p>Author</p>
-                <p>
-                  Le Phong Vu is a car enthusiast and a writer for Car News. He
-                  has a passion for cars and enjoys sharing her knowledge with
-                  others.
-                </p>
+            <section>
+              <div class="author">
+                <img src="./images/author.jpg" alt="author" />
+                <div class="author-text">
+                  <h3>Le Phong Vu</h3>
+                  <p>
+                    Vu is a car enthusiast and a writer for Car News. He has a
+                    passion for cars and enjoys sharing her knowledge with
+                    others.
+                  </p>
+                </div>
               </div>
             </section>
             <section class="comment-section">
@@ -354,10 +350,10 @@
                 </div>
                 <div class="checkbox-container">
                   <input type="checkbox" id="save-info" name="save-info" />
-                  <label for="save-info"
-                    >Save my name, email, and website in this browser for the
-                    next time I comment.</label
-                  >
+                  <p>
+                    Save my name, email, and website in this browser for the
+                    next time I comment.
+                  </p>
                 </div>
                 <button type="submit">Post Comment</button>
               </form>

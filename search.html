@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="./css/resetCss.css" />
     <!-- Universal CSS components -->
     <link rel="stylesheet" type="text/css" href="./css/universal.css" />
+    <!-- page css -->
+    <link rel="stylesheet" href="./css/news.css" />
+    <link rel="stylesheet" href="./css/search.css" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -89,12 +92,7 @@
           <!-- Nút search ở header -->
           <div class="header-searchBox" id="header-search">
             <i class="fa-solid fa-magnifying-glass header-search"></i>
-            <form
-              method="get"
-              class="header-search-form disabled"
-              id="header-search-form"
-              action="#"
-            >
+            <div class="header-search-form disabled" id="header-search-form">
               <input
                 type="text"
                 name="search"
@@ -102,11 +100,75 @@
                 autocomplete="off"
                 class="searchBox"
               />
-              <input type="submit" value="Search" class="searchBtn" />
-            </form>
+              <button type="button" class="searchBtn">Search</button>
+            </div>
           </div>
         </div>
       </header>
+      <!-- body-content -->
+      <div id="content" class="container">
+        <div id="breadCrumb"><a href="./index.html">Home</a> > Search</div>
+        <div id="body-content">
+          <!-- main content -->
+          <div id="main-content">
+            <section>
+              <div id="search-result">
+                <h1><span id="keyword"></span> - search result</h1>
+              </div>
+              <div id="header-searchBox">
+                <input
+                  type="text"
+                  name="search"
+                  value
+                  autocomplete="off"
+                  class="searchBox"
+                />
+                <button type="button" class="searchBtn">Search</button>
+              </div>
+            </section>
+          </div>
+          <!-- ads content -->
+          <div id="ads-banner">
+            <div id="ads-header">
+              <p>- Advertisement -</p>
+              <img src="./images/ad-sidebar.jpg" alt="ads" />
+            </div>
+            <div id="ads-button-group">
+              <button class="btn-fb">
+                <img src="./images/24x24/facebook-logo.png" alt="" />
+              </button>
+              <button class="btn-youtube">
+                <img src="./images/24x24/youtube.png" alt="" />
+              </button>
+              <button class="btn-tiktok">
+                <img src="./images/24x24/tik-tok.png" alt="" />
+              </button>
+            </div>
+            <div class="ads-post">
+              <h3>Recent Post</h3>
+              <ul class="ads-content">
+                <li><a href="">BFGoodrich Unveils G-Force Tires</a></li>
+                <li><a href="">New Car Financing and Cash Back</a></li>
+                <li><a href="">10 Best Car Deals of the Month</a></li>
+                <li>
+                  <a href="">Out-of-This-World Mansory Lamborghini Aventador</a>
+                </li>
+                <li><a href="">Fiat Sells Off Ferrari</a></li>
+              </ul>
+            </div>
+            <div class="ads-post">
+              <h3>Categories</h3>
+              <ul class="ads-content">
+                <li><a href="">All</a></li>
+                <li><a href="">AutoShow</a></li>
+                <li><a href="">Future Cars</a></li>
+                <li><a href="">First Drive</a></li>
+                <li><a href="">Motorsports</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Footer section -->
       <footer class="section-footer container">
         <div class="footer-container">
@@ -291,6 +353,7 @@
         </div>
       </footer>
     </div>
-    <script src="./js/header.js"></script>
+    <script src="./js/headerOtherPage.js"></script>
+    <script src="./js/search.js"></script>
   </body>
 </html>
