@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "2023 Tesla Model S Plaid Review",
-    "thumbnail": "https://example.com/tesla-model-s.jpg",
+    "thumbnail": "./images/1021x580/66-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/1",
@@ -12,24 +12,27 @@
         "avatar": "https://avatar.iran.liara.run/public/2",
         "comment": "Wish I could afford one"
       }
-    ]
+    ],
+    "banner": true
   },
   {
     "id": 2,
     "title": "Ford F-150 Lightning Electric Truck",
-    "thumbnail": "https://example.com/f150-lightning.jpg",
-    "commentCount": []
+    "thumbnail": "./images/35-1.jpg",
+    "commentCount": [],
+    "banner": true
   },
   {
     "id": 3,
     "title": "Porsche 911 GT3 Track Experience",
-    "thumbnail": "https://example.com/911-gt3.jpg",
+    "thumbnail": "./images/41-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/3",
         "comment": "That exhaust note is heavenly"
       }
-    ]
+    ],
+    "banner": true
   },
   {
     "id": 4,

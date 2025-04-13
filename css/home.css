@@ -1,37 +1,27 @@
 /* SECTION BANNER */
 .carousel-container {
   position: relative;
+  overflow: hidden;
   cursor: pointer;
 }
-.carousel-container i {
-  opacity: 0;
-  transition: all 0.3s;
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
 }
-.carousel-container:hover i {
-  opacity: 1;
-}
-.carousel-container:hover i:hover {
-  color: var(--purple);
-}
-.carousel-container i {
-  position: absolute;
-  color: var(--white);
-  font-size: 2rem;
-}
-.carousel-container .fa-chevron-left {
-  left: 2rem;
-  bottom: 50%;
-  transform: translateY(50%);
-}
-.carousel-container .fa-chevron-right {
-  right: 2rem;
-  bottom: 50%;
-  transform: translateY(50%);
-}
-.carousel-container a div {
+
+.carousel-item {
+  min-width: 100%;
   position: relative;
 }
-.carousel-container a div::before {
+
+.carousel-item.active {
+  display: block;
+}
+.carousel-item div {
+  position: relative;
+}
+.carousel-item div::before {
   content: "";
   width: 100%;
   height: 50%;
@@ -44,12 +34,12 @@
   bottom: 0;
   z-index: 1;
 }
-.carousel-container a div img {
+.carousel-item div img {
   aspect-ratio: 16/9;
   width: 100%;
   object-fit: cover;
 }
-.carousel-container a div p {
+.carousel-item div p {
   position: absolute;
   bottom: 4rem;
   left: 4rem;
@@ -58,6 +48,60 @@
   text-transform: uppercase;
   z-index: 2;
 }
+.carousel-control {
+  opacity: 0;
+  transition: all 0.3s;
+  position: absolute;
+  color: var(--white);
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-container:hover .carousel-control {
+  opacity: 1;
+}
+
+.carousel-container:hover .carousel-control:hover {
+  color: var(--purple);
+}
+
+.prev {
+  left: 2rem;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.next {
+  right: 2rem;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+/* Indicators */
+.carousel-indicators {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+  z-index: 10;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: var(--white);
+}
+
+/* Keep the rest of your existing CSS */
 .section-trending {
   background-color: var(--white);
   padding: 20px;
