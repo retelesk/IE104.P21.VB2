@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const TRENDING_ITEMS_PER_PAGE = 6;
+  const TRENDING_TITLE_CHANGE_INTERVAL = 3000;
   // 1. Search Form in Header Menu
   const searchButton = document.getElementById("header-search");
   if (searchButton) {
@@ -29,27 +31,29 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("../data/dataSample.json")
     .then((response) => response.json())
     .then((data) => {
-      // For logging articles data (optional)
-      if (data.articles) {
-        data.articles.forEach((article) => {
-          console.log(
-            `Bài viết: ${article.title} | Tác giả: ${article.author.name}`
-          );
-        });
-      }
-
-      // Initialize banner carousel
+      // BANNER CAROUSEL
       const bannerItems = data.filter((item) => item.banner);
       if (bannerItems.length > 0) {
         initializeCarousel(bannerItems);
       } else {
         console.log("No banner items found in the JSON data");
       }
+      // SECTION TRENDING
+      const trendingArticles = data.filter((item) => item.trending);
+      if (trendingArticles.length > 0) {
+        renderTrendingArticles(trendingArticles);
+        setupTitleRotation(trendingArticles);
+        setupPagination(trendingArticles);
+      } else {
+        console.log("No trending articles found");
+        document.querySelector(".section-trending").style.display = "none";
+      }
     })
     .catch((error) => {
       console.error("Error loading JSON data:", error);
     });
 
+  // BANNER CAROUSEL
   function initializeCarousel(bannerItems) {
     const carousel = document.querySelector(".carousel-container");
     if (!carousel) return;
@@ -153,5 +157,146 @@ document.addEventListener("DOMContentLoaded", function () {
 
       carousel.addEventListener("mouseleave", startAutoRotation);
     }
+  }
+  // RENDER TRENDING
+  function renderTrendingArticles(articles, page = 0) {
+    const trendingContainer = document.querySelector(".trending-lists");
+    const startIdx = page * TRENDING_ITEMS_PER_PAGE;
+    const paginatedArticles = articles.slice(
+      startIdx,
+      startIdx + TRENDING_ITEMS_PER_PAGE
+    );
+
+    // Clear existing content
+    trendingContainer.innerHTML = "";
+
+    // Create article elements
+    paginatedArticles.forEach((article) => {
+      const articleEl = document.createElement("a");
+      articleEl.className = "trending-item";
+      articleEl.href = `#${article.id}`;
+
+      // Format date
+      const articleDate = article.date
+        ? new Date(article.date).toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+          })
+        : "May 10, 2016";
+
+      articleEl.innerHTML = `
+        <img src="${article.thumbnail}" alt="${
+        article.title
+      }" class="trending-img">
+        <h3 class="trending-title">${article.title}</h3>
+        <div class="trending-meta-info">
+          <p class="trending-author">${
+            article.author?.name || "George Williams"
+          }</p>
+          <p class="trending-date">${articleDate}</p>
+          <div class="trending-comments-box">
+            <p class="trending-comments">${
+              article.commentCount?.length || 0
+            }</p>
+          </div>
+        </div>
+      `;
+
+      trendingContainer.appendChild(articleEl);
+    });
+  }
+
+  function setupTitleRotation(articles) {
+    const displayArea = document.querySelector(".trending-now--display-area");
+    let currentTitleIndex = 0;
+    let fadeInterval;
+
+    function fadeToNextTitle() {
+      // Start fade out
+      displayArea.style.opacity = "0";
+      displayArea.style.transition = "opacity 0.5s ease";
+
+      // After fade out completes, change title and fade in
+      setTimeout(() => {
+        currentTitleIndex = (currentTitleIndex + 1) % articles.length;
+        displayArea.textContent = articles[currentTitleIndex].title;
+        displayArea.style.opacity = "1";
+      }, 500);
+    }
+
+    // Initialize with first title
+    if (articles.length > 0) {
+      displayArea.textContent = articles[0].title;
+
+      // Only start auto-rotation if there are multiple articles
+      if (articles.length > 1) {
+        fadeInterval = setInterval(
+          fadeToNextTitle,
+          TRENDING_TITLE_CHANGE_INTERVAL
+        );
+
+        // Pause on hover
+        displayArea.addEventListener("mouseenter", () => {
+          clearInterval(fadeInterval);
+        });
+
+        displayArea.addEventListener("mouseleave", () => {
+          fadeInterval = setInterval(
+            fadeToNextTitle,
+            TRENDING_TITLE_CHANGE_INTERVAL
+          );
+        });
+      }
+    }
+  }
+
+  function setupPagination(articles) {
+    const prevBtn = document.querySelector(
+      ".trending-now--next-prev .prev-box"
+    );
+    const nextBtn = document.querySelector(
+      ".trending-now--next-prev .next-box"
+    );
+    const totalPages = Math.ceil(articles.length / TRENDING_ITEMS_PER_PAGE);
+    let currentPage = 0;
+
+    // Hide navigation if not needed
+    if (totalPages <= 1) {
+      document.querySelector(".trending-now--next-prev").style.display = "none";
+      return;
+    }
+
+    // Update pagination state
+    function updatePagination() {
+      renderTrendingArticles(articles, currentPage);
+
+      // Disable prev button on first page
+      prevBtn.style.opacity = currentPage === 0 ? "0.5" : "1";
+      prevBtn.style.cursor = currentPage === 0 ? "not-allowed" : "pointer";
+
+      // Disable next button on last page
+      nextBtn.style.opacity = currentPage === totalPages - 1 ? "0.5" : "1";
+      nextBtn.style.cursor =
+        currentPage === totalPages - 1 ? "not-allowed" : "pointer";
+    }
+
+    // Navigation handlers
+    prevBtn.addEventListener("click", () => {
+      if (currentPage > 0) {
+        currentPage--;
+        updatePagination();
+      }
+    });
+
+    nextBtn.addEventListener("click", () => {
+      if (currentPage < totalPages - 1) {
+        currentPage++;
+        updatePagination();
+      }
+    });
+
+    // Initialize
+    updatePagination();
   }
 });

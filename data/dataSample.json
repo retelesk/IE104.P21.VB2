@@ -13,14 +13,20 @@
         "comment": "Wish I could afford one"
       }
     ],
-    "banner": true
+    "slugs": "",
+    "contents": "",
+    "banner": true,
+    "trending": true
   },
   {
     "id": 2,
     "title": "Ford F-150 Lightning Electric Truck",
     "thumbnail": "./images/35-1.jpg",
     "commentCount": [],
-    "banner": true
+    "slugs": "",
+    "contents": "",
+    "banner": true,
+    "trending": true
   },
   {
     "id": 3,
@@ -32,12 +38,15 @@
         "comment": "That exhaust note is heavenly"
       }
     ],
-    "banner": true
+    "slugs": "",
+    "contents": "",
+    "banner": true,
+    "trending": true
   },
   {
     "id": 4,
-    "title": "How to Change Your Car Oil",
-    "thumbnail": "https://example.com/oil-change.jpg",
+    "title": "TVR is Determined to Stage More Competitive Comebacks",
+    "thumbnail": "./images/300x160/27-300x160.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/4",
@@ -51,35 +60,47 @@
         "avatar": "https://avatar.iran.liara.run/public/6",
         "comment": "Saved me $50 at the shop"
       }
-    ]
+    ],
+    "slugs": "",
+    "contents": "",
+    "trending": true
   },
   {
     "id": 5,
-    "title": "Top 10 Family SUVs for 2023",
-    "thumbnail": "https://example.com/family-suvs.jpg",
-    "commentCount": []
+    "title": "400 HP Quad-Turbo BMW Diesel is Ready and Around the Corner",
+    "thumbnail": "./images/300x160/24-300x160.jpg",
+    "commentCount": [],
+    "slugs": "",
+    "contents": "",
+    "trending": true
   },
   {
     "id": 6,
-    "title": "Tuning a Honda Civic Type R",
-    "thumbnail": "https://example.com/civic-type-r.jpg",
+    "title": "605HP Audi R8 Shows it’s Power and Breaks Fastest Record",
+    "thumbnail": "./images/300x160/20-300x160.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/7",
         "comment": "That wing is massive!"
       }
-    ]
+    ],
+    "slugs": "",
+    "contents": "",
+    "trending": true
   },
   {
     "id": 7,
-    "title": "Classic Car Restoration: 1969 Mustang",
-    "thumbnail": "https://example.com/classic-mustang.jpg",
-    "commentCount": []
+    "title": "Tesla’s Prototype Model S Charger is a Freaky Robot",
+    "thumbnail": "./images/300x160/19-300x160.jpg",
+    "commentCount": [],
+    "slugs": "",
+    "contents": "",
+    "trending": true
   },
   {
     "id": 8,
-    "title": "Winter Tire Buying Guide",
-    "thumbnail": "https://example.com/winter-tires.jpg",
+    "title": "Buick Enclave Tuscan Edition Is a Very Reliable Vehicle",
+    "thumbnail": "./images/300x160/15-300x160.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/8",
@@ -89,13 +110,19 @@
         "avatar": "https://avatar.iran.liara.run/public/9",
         "comment": "When should I switch back to summers?"
       }
-    ]
+    ],
+    "slugs": "",
+    "contents": "",
+    "trending": true
   },
   {
     "id": 9,
-    "title": "Lamborghini Huracan STO First Drive",
-    "thumbnail": "https://example.com/huracan-sto.jpg",
-    "commentCount": []
+    "title": "Lincoln Continental Concept Headed for Production",
+    "thumbnail": "./images/300x160/3-300x160.jpg",
+    "commentCount": [],
+    "slugs": "",
+    "contents": "",
+    "trending": true
   },
   {
     "id": 10,
