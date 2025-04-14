@@ -382,6 +382,18 @@ button[type="submit"]:hover {
   font-style: italic;
 }
 
+#page-searchBox .searchBtn {
+  background-color: #a801be;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 992px) {
   #body-content {
     flex-direction: column;
