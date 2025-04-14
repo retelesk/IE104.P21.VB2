@@ -285,6 +285,13 @@
   color: black;
 }
 
+#next-article {
+  text-align: right;
+}
+#prev-article {
+  text-align: left;
+}
+
 #np-content a:hover {
   color: #a801be;
 }
