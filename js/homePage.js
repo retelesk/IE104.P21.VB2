@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Create carousel item
       const carouselItem = document.createElement("a");
       carouselItem.className = "carousel-item";
-      carouselItem.href = `#${item.id}`;
+      carouselItem.href = `./news.html?id=${item.id}`;
 
       const itemContent = `
         <div>
@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
     paginatedArticles.forEach((article) => {
       const articleEl = document.createElement("a");
       articleEl.className = "trending-item";
-      articleEl.href = `#${article.id}`;
+      articleEl.href = `./news.html?id=${article.id}`;
 
       // Format date
       const articleDate = article.date
