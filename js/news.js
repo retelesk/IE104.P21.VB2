@@ -19,6 +19,37 @@ async function main() {
       "url(" + newsData.thumbnail + ")";
     document.getElementById("breadCrumb-news").innerHTML = newsData.title;
   }
+  //load prev and next article
+  // Find current index in the data array
+  const currentIndex = data.findIndex((item) => item.id === newsData.id);
+
+  if (currentIndex === 0) {
+    // First item
+    document.getElementById(
+      "next-article"
+    ).innerHTML = `<a href="./news.html?id=${data[1].id}">${data[1].title}</a>`;
+    document.getElementById("prev-article").innerHTML = "";
+  } else if (currentIndex === data.length - 1) {
+    // Last item
+    document.getElementById("next-article").innerHTML = "";
+    document.getElementById(
+      "prev-article"
+    ).innerHTML = `<a href="./news.html?id=${data[currentIndex - 1].id}">${
+      data[currentIndex - 1].title
+    }</a>`;
+  } else {
+    // Middle items
+    document.getElementById(
+      "next-article"
+    ).innerHTML = `<a href="./news.html?id=${data[currentIndex + 1].id}">${
+      data[currentIndex + 1].title
+    }</a>`;
+    document.getElementById(
+      "prev-article"
+    ).innerHTML = `<a href="./news.html?id=${data[currentIndex - 1].id}">${
+      data[currentIndex - 1].title
+    }</a>`;
+  }
 }
 // Call the main function
 main();

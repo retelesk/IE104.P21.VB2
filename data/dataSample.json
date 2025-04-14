@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "2023 Tesla Model S Plaid Review",
-    "thumbnail": "./images/1021x580/66-1021x580.jpg",
+    "thumbnail": "./images/1021x580/38-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/1",
@@ -21,7 +21,7 @@
   {
     "id": 2,
     "title": "Ford F-150 Lightning Electric Truck",
-    "thumbnail": "./images/1021x580/83-1021x580.jpg",
+    "thumbnail": "./images/1021x580/45-1021x580.jpg",
     "commentCount": [],
     "slugs": "",
     "contents": "",
@@ -31,7 +31,7 @@
   {
     "id": 3,
     "title": "Porsche 911 GT3 Track Experience",
-    "thumbnail": "./images/1021x580/83-1021x580.jpg",
+    "thumbnail": "./images/1021x580/47-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/3",
@@ -46,7 +46,7 @@
   {
     "id": 4,
     "title": "TVR is Determined to Stage More Competitive Comebacks",
-    "thumbnail": "./images/1021x580/66-1021x580.jpg",
+    "thumbnail": "./images/1021x580/48-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/4",
@@ -77,7 +77,7 @@
   {
     "id": 6,
     "title": "605HP Audi R8 Shows it’s Power and Breaks Fastest Record",
-    "thumbnail": "./images/1021x580/66-1021x580.jpg",
+    "thumbnail": "./images/1021x580/69-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/7",
@@ -91,7 +91,7 @@
   {
     "id": 7,
     "title": "Tesla’s Prototype Model S Charger is a Freaky Robot",
-    "thumbnail": "./images/1021x580/66-1021x580.jpg",
+    "thumbnail": "./images/1021x580/73-1021x580.jpg",
     "commentCount": [],
     "slugs": "",
     "contents": "",
@@ -100,7 +100,7 @@
   {
     "id": 8,
     "title": "Buick Enclave Tuscan Edition Is a Very Reliable Vehicle",
-    "thumbnail": "./images/1021x580/66-1021x580.jpg",
+    "thumbnail": "./images/1021x580/83-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/8",
@@ -118,7 +118,7 @@
   {
     "id": 9,
     "title": "Lincoln Continental Concept Headed for Production",
-    "thumbnail": "./images/1021x580/66-1021x580.jpg",
+    "thumbnail": "./images/1021x580/87-1021x580.jpg",
     "commentCount": [],
     "slugs": "",
     "contents": "",
@@ -127,7 +127,7 @@
   {
     "id": 10,
     "title": "DIY Car Detailing Tips",
-    "thumbnail": "https://example.com/car-detailing.jpg",
+    "thumbnail": "./images/1021x580/34-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/10",
@@ -138,13 +138,13 @@
   {
     "id": 11,
     "title": "Electric vs Hybrid: Which to Choose?",
-    "thumbnail": "https://example.com/ev-vs-hybrid.jpg",
+    "thumbnail": "./images/1021x580/34-1021x580.jpg",
     "commentCount": []
   },
   {
     "id": 12,
     "title": "Off-Roading with Jeep Wrangler Rubicon",
-    "thumbnail": "https://example.com/wrangler-offroad.jpg",
+    "thumbnail": "./images/1021x580/38-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/11",
@@ -159,19 +159,19 @@
   {
     "id": 13,
     "title": "BMW M5 CS Review",
-    "thumbnail": "https://example.com/bmw-m5cs.jpg",
+    "thumbnail": "./images/1021x580/45-1021x580.jpg",
     "commentCount": []
   },
   {
     "id": 14,
     "title": "Car Camping Essentials",
-    "thumbnail": "https://example.com/car-camping.jpg",
+    "thumbnail": "./images/1021x580/47-1021x580.jpg",
     "commentCount": []
   },
   {
     "id": 15,
     "title": "Toyota GR Corolla Hot Lap",
-    "thumbnail": "https://example.com/gr-corolla.jpg",
+    "thumbnail": "./images/1021x580/48-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/13",
@@ -182,13 +182,13 @@
   {
     "id": 16,
     "title": "How Parallel Parking Works",
-    "thumbnail": "https://example.com/parallel-park.jpg",
+    "thumbnail": "./images/1021x580/66-1021x580.jpg",
     "commentCount": []
   },
   {
     "id": 17,
     "title": "McLaren Artura Hybrid Supercar",
-    "thumbnail": "https://example.com/mclaren-artura.jpg",
+    "thumbnail": "./images/1021x580/87-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/14",
@@ -203,277 +203,23 @@
   {
     "id": 18,
     "title": "Best Dash Cams for 2023",
-    "thumbnail": "https://example.com/dash-cams.jpg",
+    "thumbnail": "./images/1021x580/83-1021x580.jpg",
     "commentCount": []
   },
   {
     "id": 19,
     "title": "Drifting a Nissan 350Z",
-    "thumbnail": "https://example.com/350z-drift.jpg",
+    "thumbnail": "./images/1021x580/69-1021x580.jpg",
     "commentCount": []
   },
   {
     "id": 20,
     "title": "RV Living: Pros and Cons",
-    "thumbnail": "https://example.com/rv-living.jpg",
+    "thumbnail": "./images/1021x580/66-1021x580.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/16",
         "comment": "Been full-time for 3 years!"
-      }
-    ]
-  },
-  {
-    "id": 21,
-    "title": "Mercedes-AMG One Hypercar Reveal",
-    "thumbnail": "https://example.com/amg-one.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 22,
-    "title": "Basic Car Maintenance Checklist",
-    "thumbnail": "https://example.com/maintenance.jpg",
-    "commentCount": [
-      {
-        "avatar": "https://avatar.iran.liara.run/public/17",
-        "comment": "Every new driver should see this"
-      },
-      {
-        "avatar": "https://avatar.iran.liara.run/public/18",
-        "comment": "Forgot to mention cabin air filter"
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "title": "Audi RS6 Avant Family Wagon",
-    "thumbnail": "https://example.com/rs6-avant.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 24,
-    "title": "Towing Capacity Explained",
-    "thumbnail": "https://example.com/towing-guide.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 25,
-    "title": "Jay Leno's Garage Tour",
-    "thumbnail": "https://example.com/jay-leno.jpg",
-    "commentCount": [
-      {
-        "avatar": "https://avatar.iran.liara.run/public/19",
-        "comment": "Legendary collection!"
-      },
-      {
-        "avatar": "https://avatar.iran.liara.run/public/20",
-        "comment": "That turbine car is wild"
-      },
-      {
-        "avatar": "https://avatar.iran.liara.run/public/21",
-        "comment": "Wish I had that budget"
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "title": "Chevy Corvette Z06 Track Test",
-    "thumbnail": "https://example.com/c8-z06.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 27,
-    "title": "Car Wash Mistakes to Avoid",
-    "thumbnail": "https://example.com/car-wash.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 28,
-    "title": "Volkswagen ID.4 Real-World Range",
-    "thumbnail": "https://example.com/vw-id4.jpg",
-    "commentCount": [
-      {
-        "avatar": "https://avatar.iran.liara.run/public/22",
-        "comment": "How's cold weather performance?"
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "title": "Ferrari Daytona SP3 First Look",
-    "thumbnail": "https://example.com/daytona-sp3.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 30,
-    "title": "Best First Cars for Teens",
-    "thumbnail": "https://example.com/teen-cars.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 31,
-    "title": "Overlanding Truck Build",
-    "thumbnail": "https://example.com/overlanding.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 32,
-    "title": "Polestar 2 vs Tesla Model 3",
-    "thumbnail": "https://example.com/polestar-vs-tesla.jpg",
-    "commentCount": [
-      {
-        "avatar": "https://avatar.iran.liara.run/public/23",
-        "comment": "Polestar has better build quality"
-      },
-      {
-        "avatar": "https://avatar.iran.liara.run/public/24",
-        "comment": "But Tesla's software is ahead"
-      }
-    ]
-  },
-  {
-    "id": 33,
-    "title": "Restoring a Rusty Land Cruiser",
-    "thumbnail": "https://example.com/fj40-restore.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 34,
-    "title": "Car Theft Prevention Devices",
-    "thumbnail": "https://example.com/anti-theft.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 35,
-    "title": "Bugatti Chiron Top Speed Run",
-    "thumbnail": "https://example.com/chiron.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 36,
-    "title": "Manual Transmission Revival?",
-    "thumbnail": "https://example.com/manual-gearbox.jpg",
-    "commentCount": [
-      {
-        "avatar": "https://avatar.iran.liara.run/public/25",
-        "comment": "Save the manuals!"
-      }
-    ]
-  },
-  {
-    "id": 37,
-    "title": "Best Sounding Exhaust Systems",
-    "thumbnail": "https://example.com/exhausts.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 38,
-    "title": "Cybertruck Production Update",
-    "thumbnail": "https://example.com/cybertruck.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 39,
-    "title": "Vintage Rally Car Collection",
-    "thumbnail": "https://example.com/vintage-rally.jpg",
-    "commentCount": [
-      {
-        "avatar": "https://avatar.iran.liara.run/public/26",
-        "comment": "Those Lancia Stratos are priceless"
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "title": "Car Seat Safety Guide",
-    "thumbnail": "https://example.com/car-seats.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 41,
-    "title": "Lotus Emira First Drive",
-    "thumbnail": "https://example.com/lotus-emira.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 42,
-    "title": "EV Road Trip Planning Tips",
-    "thumbnail": "https://example.com/ev-roadtrip.jpg",
-    "commentCount": [
-      {
-        "avatar": "https://avatar.iran.liara.run/public/27",
-        "comment": "ABRP is the best app for this"
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "title": "Ford Bronco vs Jeep Wrangler",
-    "thumbnail": "https://example.com/bronco-vs-jeep.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 44,
-    "title": "Carbon Fiber Wheel Advantages",
-    "thumbnail": "https://example.com/carbon-wheels.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 45,
-    "title": "Tokyo Car Meet Nightlife",
-    "thumbnail": "https://example.com/tokyo-cars.jpg",
-    "commentCount": [
-      {
-        "avatar": "https://avatar.iran.liara.run/public/28",
-        "comment": "Those Bosozoku styles are wild"
-      },
-      {
-        "avatar": "https://avatar.iran.liara.run/public/29",
-        "comment": "Wish we had meets like this"
-      }
-    ]
-  },
-  {
-    "id": 46,
-    "title": "Best Track Day Cars Under $50k",
-    "thumbnail": "https://example.com/track-cars.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 47,
-    "title": "Car Engine Noises Explained",
-    "thumbnail": "https://example.com/engine-sounds.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 48,
-    "title": "Honda S2000 Buyer's Guide",
-    "thumbnail": "https://example.com/s2000.jpg",
-    "commentCount": [
-      {
-        "avatar": "https://avatar.iran.liara.run/public/30",
-        "comment": "VTEC just kicked in yo!"
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "title": "Autonomous Driving Tech Update",
-    "thumbnail": "https://example.com/self-driving.jpg",
-    "commentCount": []
-  },
-  {
-    "id": 50,
-    "title": "World's Fastest Production Cars 2023",
-    "thumbnail": "https://example.com/fastest-cars.jpg",
-    "commentCount": [
-      {
-        "avatar": "https://avatar.iran.liara.run/public/31",
-        "comment": "That SSC Tuatara record was controversial"
-      },
-      {
-        "avatar": "https://avatar.iran.liara.run/public/32",
-        "comment": "Where's the Rimac Nevera?"
       }
     ]
   }
