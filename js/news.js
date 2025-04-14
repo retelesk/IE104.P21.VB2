@@ -11,7 +11,6 @@ async function main() {
   const url = new URL(window.location.href);
   const id = url.searchParams.get("id");
   newsData = findObjectById(data, id);
-  console.log(newsData);
 
   // Change image and title
   if (newsData) {
@@ -31,7 +30,6 @@ async function loadData() {
     // Fetch data from the JSON file
     const response = await fetch("../data/dataSample.json");
     data = await response.json();
-    console.log(data);
   } catch (error) {
     console.error("Error loading JSON data:", error);
   }

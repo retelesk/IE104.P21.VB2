@@ -1,23 +1,16 @@
 "use strict";
-document.addEventListener("DOMContentLoaded", function () {
-  let url = new URL(window.location.href);
-  let keyword = url.searchParams.get("keyword");
-  document.querySelector("#keyword").innerHTML = keyword;
-});
 
-const fetchJsonData = async function (file) {
-  try {
-    const response = await fetch(file);
+const url = new URL(window.location.href);
+const keyword = url.searchParams.get("keyword");
 
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
+document.querySelector("#keyword").innerHTML = keyword;
+
+document
+  .getElementById("page-search-btn")
+  .addEventListener("click", function () {
+    let searchValue = document.getElementById("page-search-input").value;
+    if (searchValue == "") {
+      searchValue = " ";
     }
-
-    const data = await response.json();
-    console.log(data);
-
-    return data;
-  } catch (error) {
-    console.error("Error fetching the JSON file:", error);
-  }
-};
+    window.location.href = "./search.html?keyword=" + searchValue;
+  });
