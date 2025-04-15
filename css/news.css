@@ -259,25 +259,18 @@
   border-top: 1px solid #e6e6e6d5;
   padding: 40px 0;
   border-bottom: 1px solid #e6e6e6d5;
-}
-
-#next-prev {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+
+#prev-article p,
+#next-article p {
+  font-size: 16px;
   font-style: italic;
-  font-size: 15px;
-  color: gray;
 }
 
-#np-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-#np-content a {
+#prev-article a,
+#next-article a {
   text-decoration: none;
   font-size: 18px;
   padding: 5px 0;
@@ -292,7 +285,8 @@
   text-align: left;
 }
 
-#np-content a:hover {
+#prev-article a:hover,
+#next-article a:hover {
   color: #a801be;
 }
 

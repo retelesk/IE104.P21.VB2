@@ -77,15 +77,17 @@ function displaySearchResults(results) {
   const resultsHTML = results
     .map((item) => {
       return `
+      <a href="./news.html?id=${item.id}">
       <div class="search-result-item">
         <div class="search-result-item-thumb">
+        
           <img src="${item.thumbnail}" alt="news-img" />
         </div>
         <h3 class="search-result-item-title">
           ${item.title}
         </h3>
         <p class="search-result-item-date">May 10, 2016</p>
-      </div>
+      </div></a>
     `;
     })
     .join(""); // Join all HTML strings into one

@@ -24,34 +24,32 @@ async function main() {
   const currentIndex = data.findIndex((item) => item.id === newsData.id);
 
   if (currentIndex === 0) {
-    // First item
     document.getElementById(
       "next-article"
-    ).innerHTML = `<a href="./news.html?id=${data[1].id}">${data[1].title}</a>`;
-    document.getElementById("prev-article").innerHTML = "";
+    ).innerHTML = `<p>Next Article</p><a href="./news.html?id=${data[1].id}">${data[1].title}</a>`;
+    document.getElementById("prev-article").innerHTML =
+      "<p>Previous Article</p>";
   } else if (currentIndex === data.length - 1) {
-    // Last item
-    document.getElementById("next-article").innerHTML = "";
+    document.getElementById("next-article").innerHTML = "<p>Next Article</p>";
     document.getElementById(
       "prev-article"
-    ).innerHTML = `<a href="./news.html?id=${data[currentIndex - 1].id}">${
-      data[currentIndex - 1].title
-    }</a>`;
+    ).innerHTML = `<p>Previous Article</p><a href="./news.html?id=${
+      data[currentIndex - 1].id
+    }">${data[currentIndex - 1].title}</a>`;
   } else {
-    // Middle items
     document.getElementById(
       "next-article"
-    ).innerHTML = `<a href="./news.html?id=${data[currentIndex + 1].id}">${
-      data[currentIndex + 1].title
-    }</a>`;
+    ).innerHTML = `<p>Next Article</p><a href="./news.html?id=${
+      data[currentIndex + 1].id
+    }">${data[currentIndex + 1].title}</a>`;
     document.getElementById(
       "prev-article"
-    ).innerHTML = `<a href="./news.html?id=${data[currentIndex - 1].id}">${
-      data[currentIndex - 1].title
-    }</a>`;
+    ).innerHTML = `<p>Previous Article</p><a href="./news.html?id=${
+      data[currentIndex - 1].id
+    }">${data[currentIndex - 1].title}</a>`;
   }
 }
-// Call the main function
+// Call the main function  
 main();
 
 //*************************Common function */
