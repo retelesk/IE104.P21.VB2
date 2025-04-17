@@ -60,6 +60,7 @@
 
 .banner-news:hover {
   background-size: 600px;
+  cursor: pointer;
 }
 
 .banner-news h1,
