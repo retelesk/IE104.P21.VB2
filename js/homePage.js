@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
             month: "short",
             day: "numeric",
           })
-        : "May 10, 2016";
+        : "Apr 15, 2025";
 
       articleEl.innerHTML = `
         <img src="${article.thumbnail}" alt="${

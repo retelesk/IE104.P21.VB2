@@ -13,7 +13,7 @@
 
 #banner {
   position: relative;
-  background-image: url("../images/1021x580/45-1021x580.jpg");
+  background-image: url("../images/1021x580/01.jpg");
   width: 100%;
   height: auto;
   min-height: 300px;
@@ -127,7 +127,7 @@
 
 .highlight-text {
   color: #a801be;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   font-style: italic;
   font-size: 30px;
   text-transform: uppercase;
@@ -170,17 +170,18 @@
 .content-img-left,
 .content-img-right {
   width: 50%;
-  padding: 10px;
-  margin: 0 10px;
+  padding: 20px 0;
   position: relative;
 }
 
 .content-img-left {
   float: left;
+  margin-right: 20px;
 }
 
 .content-img-right {
   float: right;
+  margin-left: 20px;
 }
 
 .content-img-left img,

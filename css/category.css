@@ -29,7 +29,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("../images/1021x580/38-1021x580.jpg");
+  background-image: url("../images/1021x580/01.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 700px;
@@ -38,10 +38,10 @@
   transition: background-size 0.8s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .banner-news:nth-child(2) {
-  background-image: url("../images/1021x580/45-1021x580.jpg");
+  background-image: url("../images/1021x580/02.jpg");
 }
 .banner-news:nth-child(3) {
-  background-image: url("../images/1021x580/47-1021x580.jpg");
+  background-image: url("../images/1021x580/03.jpg");
 }
 .banner-news::before {
   content: "";

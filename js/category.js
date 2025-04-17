@@ -3,12 +3,15 @@
 const url = new URL(window.location.href);
 const keyword = url.searchParams.get("cat");
 var data = [];
+var displayDt = [];
 
 //****************Main function********************** */
 document.querySelector(".title-text").innerHTML = keyword;
+document.getElementById("new-cat").innerHTML = keyword;
 async function main() {
   await loadData();
-  displayData(data);
+  displayDt = data.splice(0, 20);
+  displayData(displayDt);
 }
 // Call the main function
 main();
@@ -32,7 +35,6 @@ function displayData(results) {
   // Clear any existing content
   searchResultsContainer.innerHTML = "";
 
-  // Map through results and create HTML elements
   const resultsHTML = results
     .map((item) => {
       return `
@@ -49,7 +51,7 @@ function displayData(results) {
       </div></a>
     `;
     })
-    .join(""); // Join all HTML strings into one
+    .join("");
 
   // Insert the HTML into the container
   searchResultsContainer.innerHTML = resultsHTML;

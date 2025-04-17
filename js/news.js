@@ -20,10 +20,9 @@ async function main() {
     document.getElementById("breadCrumb-news").innerHTML = newsData.title;
   }
   //load prev and next article
-  // Find current index in the data array
   const currentIndex = data.findIndex((item) => item.id === newsData.id);
 
-  if (currentIndex === 0) {
+  if (currentIndex == 0) {
     document.getElementById(
       "next-article"
     ).innerHTML = `<p>Next Article</p><a href="./news.html?id=${data[1].id}">${data[1].title}</a>`;
@@ -49,7 +48,7 @@ async function main() {
     }">${data[currentIndex - 1].title}</a>`;
   }
 }
-// Call the main function  
+// Call the main function
 main();
 
 //*************************Common function */

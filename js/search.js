@@ -86,7 +86,7 @@ function displaySearchResults(results) {
         <h3 class="search-result-item-title">
           ${item.title}
         </h3>
-        <p class="search-result-item-date">May 10, 2016</p>
+        <p class="search-result-item-date">April 15, 2025</p>
       </div></a>
     `;
     })

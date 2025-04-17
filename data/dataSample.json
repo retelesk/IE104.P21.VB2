@@ -2,225 +2,623 @@
   {
     "id": 1,
     "title": "2023 Tesla Model S Plaid Review",
-    "thumbnail": "./images/1021x580/38-1021x580.jpg",
+    "thumbnail": "./images/1021x580/01.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/1",
-        "comment": "Insane acceleration!"
+        "comment": "Insane acceleration!",
+        "name": "Mike Johnson"
       },
       {
         "avatar": "https://avatar.iran.liara.run/public/2",
-        "comment": "Wish I could afford one"
+        "comment": "Wish I could afford one",
+        "name": "Sarah Chen"
       }
     ],
-    "slugs": "",
-    "contents": "",
     "banner": true,
     "trending": true
   },
   {
     "id": 2,
     "title": "Ford F-150 Lightning Electric Truck",
-    "thumbnail": "./images/1021x580/45-1021x580.jpg",
+    "thumbnail": "./images/1021x580/02.jpg",
     "commentCount": [],
-    "slugs": "",
-    "contents": "",
     "banner": true,
     "trending": true
   },
   {
     "id": 3,
     "title": "Porsche 911 GT3 Track Experience",
-    "thumbnail": "./images/1021x580/47-1021x580.jpg",
+    "thumbnail": "./images/1021x580/03.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/3",
-        "comment": "That exhaust note is heavenly"
+        "comment": "That exhaust note is heavenly",
+        "name": "Alex Rodriguez"
       }
     ],
-    "slugs": "",
-    "contents": "",
     "banner": true,
     "trending": true
   },
   {
     "id": 4,
     "title": "TVR is Determined to Stage More Competitive Comebacks",
-    "thumbnail": "./images/1021x580/48-1021x580.jpg",
+    "thumbnail": "./images/1021x580/04.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/4",
-        "comment": "Great tutorial!"
+        "comment": "Great tutorial!",
+        "name": "Emma Wilson"
       },
       {
         "avatar": "https://avatar.iran.liara.run/public/5",
-        "comment": "What oil viscosity do you recommend?"
+        "comment": "What oil viscosity do you recommend?",
+        "name": "David Park"
       },
       {
         "avatar": "https://avatar.iran.liara.run/public/6",
-        "comment": "Saved me $50 at the shop"
+        "comment": "Saved me $50 at the shop",
+        "name": "Olivia Martinez"
       }
     ],
-    "slugs": "",
-    "contents": "",
+    "banner": false,
     "trending": true
   },
   {
     "id": 5,
     "title": "400 HP Quad-Turbo BMW Diesel is Ready and Around the Corner",
-    "thumbnail": "./images/1021x580/66-1021x580.jpg",
+    "thumbnail": "./images/1021x580/05.jpg",
     "commentCount": [],
-    "slugs": "",
-    "contents": "",
+    "banner": false,
     "trending": true
   },
   {
     "id": 6,
-    "title": "605HP Audi R8 Shows it’s Power and Breaks Fastest Record",
-    "thumbnail": "./images/1021x580/69-1021x580.jpg",
+    "title": "605HP Audi R8 Shows it's Power and Breaks Fastest Record",
+    "thumbnail": "./images/1021x580/06.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/7",
-        "comment": "That wing is massive!"
+        "comment": "That wing is massive!",
+        "name": "James Thompson"
       }
     ],
-    "slugs": "",
-    "contents": "",
+    "banner": false,
     "trending": true
   },
   {
     "id": 7,
-    "title": "Tesla’s Prototype Model S Charger is a Freaky Robot",
-    "thumbnail": "./images/1021x580/73-1021x580.jpg",
+    "title": "Tesla's Prototype Model S Charger is a Freaky Robot",
+    "thumbnail": "./images/1021x580/07.jpg",
     "commentCount": [],
-    "slugs": "",
-    "contents": "",
+    "banner": false,
     "trending": true
   },
   {
     "id": 8,
     "title": "Buick Enclave Tuscan Edition Is a Very Reliable Vehicle",
-    "thumbnail": "./images/1021x580/83-1021x580.jpg",
+    "thumbnail": "./images/1021x580/08.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/8",
-        "comment": "Very helpful for snowy areas"
+        "comment": "Very helpful for snowy areas",
+        "name": "Lisa Kumar"
       },
       {
         "avatar": "https://avatar.iran.liara.run/public/9",
-        "comment": "When should I switch back to summers?"
+        "comment": "When should I switch back to summers?",
+        "name": "Ryan Brooks"
       }
     ],
-    "slugs": "",
-    "contents": "",
+    "banner": false,
     "trending": true
   },
   {
     "id": 9,
     "title": "Lincoln Continental Concept Headed for Production",
-    "thumbnail": "./images/1021x580/87-1021x580.jpg",
+    "thumbnail": "./images/1021x580/09.jpg",
     "commentCount": [],
-    "slugs": "",
-    "contents": "",
+    "banner": false,
     "trending": true
   },
   {
     "id": 10,
     "title": "DIY Car Detailing Tips",
-    "thumbnail": "./images/1021x580/34-1021x580.jpg",
+    "thumbnail": "./images/1021x580/10.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/10",
-        "comment": "What's your favorite wax?"
+        "comment": "What's your favorite wax?",
+        "name": "Thomas Garcia"
       }
-    ]
+    ],
+    "banner": false,
+    "trending": false
   },
   {
     "id": 11,
     "title": "Electric vs Hybrid: Which to Choose?",
-    "thumbnail": "./images/1021x580/34-1021x580.jpg",
-    "commentCount": []
+    "thumbnail": "./images/1021x580/11.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
   },
   {
     "id": 12,
     "title": "Off-Roading with Jeep Wrangler Rubicon",
-    "thumbnail": "./images/1021x580/38-1021x580.jpg",
+    "thumbnail": "./images/1021x580/12.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/11",
-        "comment": "That water crossing was intense!"
+        "comment": "That water crossing was intense!",
+        "name": "Jessica Nguyen"
       },
       {
         "avatar": "https://avatar.iran.liara.run/public/12",
-        "comment": "What lift kit is that?"
+        "comment": "What lift kit is that?",
+        "name": "Marcus Williams"
       }
-    ]
+    ],
+    "banner": false,
+    "trending": false
   },
   {
     "id": 13,
     "title": "BMW M5 CS Review",
-    "thumbnail": "./images/1021x580/45-1021x580.jpg",
-    "commentCount": []
+    "thumbnail": "./images/1021x580/13.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
   },
   {
     "id": 14,
     "title": "Car Camping Essentials",
-    "thumbnail": "./images/1021x580/47-1021x580.jpg",
-    "commentCount": []
+    "thumbnail": "./images/1021x580/14.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
   },
   {
     "id": 15,
     "title": "Toyota GR Corolla Hot Lap",
-    "thumbnail": "./images/1021x580/48-1021x580.jpg",
+    "thumbnail": "./images/1021x580/15.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/13",
-        "comment": "Such a fun hatchback!"
+        "comment": "Such a fun hatchback!",
+        "name": "Hannah Kim"
       }
-    ]
+    ],
+    "banner": false,
+    "trending": false
   },
   {
     "id": 16,
     "title": "How Parallel Parking Works",
-    "thumbnail": "./images/1021x580/66-1021x580.jpg",
-    "commentCount": []
+    "thumbnail": "./images/1021x580/16.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
   },
   {
     "id": 17,
     "title": "McLaren Artura Hybrid Supercar",
-    "thumbnail": "./images/1021x580/87-1021x580.jpg",
+    "thumbnail": "./images/1021x580/17.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/14",
-        "comment": "The future of supercars"
+        "comment": "The future of supercars",
+        "name": "Daniel Schmidt"
       },
       {
         "avatar": "https://avatar.iran.liara.run/public/15",
-        "comment": "Still sounds amazing for a hybrid"
+        "comment": "Still sounds amazing for a hybrid",
+        "name": "Sofia Patel"
       }
-    ]
+    ],
+    "banner": false,
+    "trending": false
   },
   {
     "id": 18,
     "title": "Best Dash Cams for 2023",
-    "thumbnail": "./images/1021x580/83-1021x580.jpg",
-    "commentCount": []
+    "thumbnail": "./images/1021x580/18.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
   },
   {
     "id": 19,
     "title": "Drifting a Nissan 350Z",
-    "thumbnail": "./images/1021x580/69-1021x580.jpg",
-    "commentCount": []
+    "thumbnail": "./images/1021x580/19.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
   },
   {
     "id": 20,
     "title": "RV Living: Pros and Cons",
-    "thumbnail": "./images/1021x580/66-1021x580.jpg",
+    "thumbnail": "./images/1021x580/20.jpg",
     "commentCount": [
       {
         "avatar": "https://avatar.iran.liara.run/public/16",
-        "comment": "Been full-time for 3 years!"
+        "comment": "Been full-time for 3 years!",
+        "name": "Tyler Jackson"
       }
-    ]
+    ],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 21,
+    "title": "Restoring a Classic Mustang",
+    "thumbnail": "./images/1021x580/21.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/17",
+        "comment": "My dad had one just like this!",
+        "name": "Eric Thompson"
+      }
+    ],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 22,
+    "title": "Lucid Air Dream Edition First Drive",
+    "thumbnail": "./images/1021x580/22.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/18",
+        "comment": "520 mile range is incredible",
+        "name": "Michelle Lee"
+      },
+      {
+        "avatar": "https://avatar.iran.liara.run/public/19",
+        "comment": "Tesla has serious competition now",
+        "name": "Robert Alvarez"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 23,
+    "title": "How to Change Your Spark Plugs",
+    "thumbnail": "./images/1021x580/23.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 24,
+    "title": "Genesis GV70 vs BMW X3 Comparison",
+    "thumbnail": "./images/1021x580/24.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/20",
+        "comment": "Genesis is killing it lately",
+        "name": "Katherine Wong"
+      }
+    ],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 25,
+    "title": "Rivian R1T Off-Road Adventure",
+    "thumbnail": "./images/1021x580/25.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/21",
+        "comment": "Those tank turns are wild!",
+        "name": "Nathan Rivera"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 26,
+    "title": "Tire Pressure Monitoring: What You Need to Know",
+    "thumbnail": "./images/1021x580/01.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 27,
+    "title": "Ferrari 296 GTB Hybrid V6 Revealed",
+    "thumbnail": "./images/1021x580/02.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/22",
+        "comment": "V6 Ferrari? Times are changing",
+        "name": "Paul Novak"
+      },
+      {
+        "avatar": "https://avatar.iran.liara.run/public/23",
+        "comment": "Still sounds amazing in the videos",
+        "name": "Aisha Johnson"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 28,
+    "title": "Winter Driving Tips for Beginners",
+    "thumbnail": "./images/1021x580/03.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 29,
+    "title": "Cadillac Lyriq EV First Look",
+    "thumbnail": "./images/1021x580/04.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/24",
+        "comment": "The interior is next level",
+        "name": "Tomas Perez"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 30,
+    "title": "How Often Should You Rotate Your Tires?",
+    "thumbnail": "./images/1021x580/05.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 31,
+    "title": "Lamborghini Countach LPI 800-4 Revival",
+    "thumbnail": "./images/1021x580/06.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/25",
+        "comment": "Childhood dreams coming true!",
+        "name": "Victor Santos"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 32,
+    "title": "Understanding Engine Oil Grades",
+    "thumbnail": "./images/1021x580/07.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 33,
+    "title": "Kia EV6 GT Takes on Porsche Taycan",
+    "thumbnail": "./images/1021x580/08.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/26",
+        "comment": "Never thought I'd see Kia vs Porsche",
+        "name": "Rachel Kim"
+      },
+      {
+        "avatar": "https://avatar.iran.liara.run/public/27",
+        "comment": "Korean cars have come so far",
+        "name": "Brandon Taylor"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 34,
+    "title": "Car Audio Upgrade Guide",
+    "thumbnail": "./images/1021x580/09.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 35,
+    "title": "Gordon Murray T.50 Supercar Deep Dive",
+    "thumbnail": "./images/1021x580/10.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/28",
+        "comment": "That V12 revs to 12,100 rpm!",
+        "name": "Lucas Wright"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 36,
+    "title": "How to Jump Start a Car Properly",
+    "thumbnail": "./images/1021x580/11.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 37,
+    "title": "Subaru WRX STI vs Mitsubishi Evo: Rally Icons",
+    "thumbnail": "./images/1021x580/12.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/29",
+        "comment": "Team Subaru all the way!",
+        "name": "Jason Liu"
+      },
+      {
+        "avatar": "https://avatar.iran.liara.run/public/30",
+        "comment": "Miss the Evo so much",
+        "name": "Elena Rodriguez"
+      }
+    ],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 38,
+    "title": "Ceramic Coating vs Wax: Which is Better?",
+    "thumbnail": "./images/1021x580/13.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 39,
+    "title": "Hyundai Ioniq 5 N Performance EV",
+    "thumbnail": "./images/1021x580/14.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/31",
+        "comment": "Hyundai N division is killing it",
+        "name": "Sophia Campbell"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 40,
+    "title": "Best Car Insurance for Young Drivers",
+    "thumbnail": "./images/1021x580/15.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 41,
+    "title": "Mazda CX-90 PHEV Road Trip Test",
+    "thumbnail": "./images/1021x580/16.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/32",
+        "comment": "Mazda interiors are so premium now",
+        "name": "Daniel Chen"
+      }
+    ],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 42,
+    "title": "DIY Windshield Chip Repair",
+    "thumbnail": "./images/1021x580/17.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 43,
+    "title": "Bugatti Chiron Super Sport 300+ Review",
+    "thumbnail": "./images/1021x580/18.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/33",
+        "comment": "304 mph is just ridiculous",
+        "name": "Oliver Morgan"
+      },
+      {
+        "avatar": "https://avatar.iran.liara.run/public/34",
+        "comment": "The ultimate hypercar",
+        "name": "Zoe Parker"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 44,
+    "title": "How to Remove Scratches from Car Paint",
+    "thumbnail": "./images/1021x580/19.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 45,
+    "title": "Toyota Supra Manual Transmission Edition",
+    "thumbnail": "./images/1021x580/20.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/35",
+        "comment": "Finally! #SaveTheManuals",
+        "name": "Chris Evans"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 46,
+    "title": "Understanding Anti-Lock Braking Systems",
+    "thumbnail": "./images/1021x580/21.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 47,
+    "title": "Aston Martin Valkyrie AMR Pro Track Test",
+    "thumbnail": "./images/1021x580/22.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/36",
+        "comment": "Like an F1 car with a roof",
+        "name": "Maria Gonzalez"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 48,
+    "title": "Child Car Seat Installation Guide",
+    "thumbnail": "./images/1021x580/23.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false
+  },
+  {
+    "id": 49,
+    "title": "Koenigsegg Gemera: The Family Hypercar",
+    "thumbnail": "./images/1021x580/24.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/37",
+        "comment": "Four seats and 1700hp? Insane!",
+        "name": "William Foster"
+      },
+      {
+        "avatar": "https://avatar.iran.liara.run/public/38",
+        "comment": "Christian von Koenigsegg is a genius",
+        "name": "Nina Patel"
+      }
+    ],
+    "banner": false,
+    "trending": true
+  },
+  {
+    "id": 50,
+    "title": "Extending Your Car's Lifespan: Essential Maintenance",
+    "thumbnail": "./images/1021x580/25.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/39",
+        "comment": "My Toyota is at 310,000 miles using these tips",
+        "name": "Samuel Wilson"
+      }
+    ],
+    "banner": false,
+    "trending": false
   }
 ]
