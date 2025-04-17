@@ -343,10 +343,6 @@ label {
   display: none;
 }
 
-input[type="checkbox"] {
-  margin-right: 8px;
-}
-
 button[type="submit"] {
   background-color: #222;
   color: white;
