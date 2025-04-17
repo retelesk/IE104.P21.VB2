@@ -18,6 +18,7 @@
   background-color: #fff;
   display: flex;
   padding-bottom: 20px;
+  /* flex-wrap: wrap; */
 }
 .banner-news {
   position: relative;
@@ -91,4 +92,120 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+}
+
+.search-result-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.search-result-item-thumb img {
+  width: 100%;
+  border-radius: 4px;
+  height: auto;
+}
+
+.search-result-item-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.search-result-item-date {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.search-result-item:hover .search-result-item-title {
+  color: #a801be;
+  cursor: pointer;
+}
+
+.search-result-item-thumb:hover {
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .banner-news {
+    width: 300px; /* Reduce banner size for tablets */
+    height: 250px;
+    background-size: 600px;
+  }
+
+  .banner-news h1 {
+    font-size: 1.8rem;
+  }
+
+  .banner-news p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-content {
+    flex-direction: column; /* Stack banners vertically */
+    align-items: center;
+  }
+
+  .banner-news {
+    width: 100%; /* Full width for smaller screens */
+    height: 200px;
+    background-size: cover;
+  }
+
+  .banner-news h1 {
+    font-size: 1.5rem;
+  }
+
+  .banner-news p {
+    font-size: 0.9rem;
+  }
+
+  #result-area {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(200px, 1fr)
+    ); /* Adjust grid for smaller screens */
+  }
+
+  .search-result-item-title {
+    font-size: 14px;
+  }
+
+  .search-result-item-date {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-news {
+    height: 150px; /* Smaller height for mobile */
+  }
+
+  .banner-news h1 {
+    font-size: 1.2rem;
+  }
+
+  .banner-news p {
+    font-size: 0.8rem;
+  }
+
+  .search-result-item {
+    padding: 10px;
+  }
+
+  .search-result-item-title {
+    font-size: 12px;
+  }
+
+  .search-result-item-date {
+    font-size: 10px;
+  }
 }
