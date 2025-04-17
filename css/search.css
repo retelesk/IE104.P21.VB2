@@ -64,20 +64,6 @@
   cursor: pointer;
 }
 
-/* Layout */
-#body-content {
-  display: flex;
-  flex-direction: row;
-}
-
-#main-content {
-  flex: 3;
-}
-
-#ads-banner {
-  flex: 1;
-}
-
 /* Responsive Grid */
 #result-area {
   display: grid;
