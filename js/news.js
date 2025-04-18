@@ -47,6 +47,28 @@ async function main() {
       data[currentIndex - 1].id
     }">${data[currentIndex - 1].title}</a>`;
   }
+  //load comment
+  let contentComment = newsData.commentCount
+    .map((comment) => {
+      return `<div class="comment">
+                  <div class="comment-avatar">
+                    <img
+                      src="${comment.avatar}"
+                      alt="avatar"
+                    />
+                  </div>
+                  <div class="comment-text">
+                    <div class="comment-name"><p>${comment.name}</p></div>
+                    <div class="comment-content">
+                      <p>${comment.comment}</p>
+                    </div>
+                  </div>
+                </div>`;
+    })
+    .join("");
+  console.log(contentComment);
+
+  document.getElementById("comment-area").innerHTML = contentComment;
 }
 // Call the main function
 main();
