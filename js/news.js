@@ -8,7 +8,6 @@ let comment = {
   name: "",
   text: "",
 };
-
 //*****************Page Event Handler******************/
 document.addEventListener("DOMContentLoaded", async () => {
   await loadData();
@@ -42,7 +41,6 @@ document.getElementById("btn-post").addEventListener("click", () => {
                 </div>`;
   document.getElementById("comment-area").innerHTML += commentHtml;
 });
-
 //*************************Common function******************/
 // Get data from JSON
 async function loadData() {

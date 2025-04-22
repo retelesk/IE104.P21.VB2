@@ -4,15 +4,13 @@ const url = new URL(window.location.href);
 const keyword = url.searchParams.get("cat");
 var data = [];
 var displayDt = [];
-
-//****************Main function********************** */
+//****************Event handler********************** */
 document.querySelector(".title-text").innerHTML = keyword;
 document.getElementById("new-cat").innerHTML = keyword;
 document.addEventListener("DOMContentLoaded", async () => {
   await loadData();
   displayData(data);
 });
-
 //****************Common function********************** */
 // Get data from JSON file
 async function loadData() {
@@ -24,7 +22,6 @@ async function loadData() {
     console.error("Error loading JSON data:", error);
   }
 }
-
 // Function to display data
 function displayData(results) {
   const searchResultsContainer = document.getElementById("result-area");

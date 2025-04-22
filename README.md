@@ -34,25 +34,10 @@ Website sở hữu thiết kế hiện đại, khả năng tải nội dung đ�
 
 ## 🗂️ Cấu Trúc Dự Án
 
-├── css/<br>
-│ ├── resetCss.css<br>
-│ ├── universal.css<br>
-│ ├── home.css<br>
-│ ├── news.css<br>
-│ ├── category.css<br>
-│ └── search.css<br>
-├── images/<br>
-│ ├── 100x75/<br>
-│ ├── 1021x580/<br>
-│ └── 150x150/<br>
-├── js/<br>
-│ ├── homePage.js<br>
-│ ├── headerOtherPage.js<br>
-│ ├── news.js<br>
-│ ├── search.js<br>
-│ └── category.js<br>
-├── data/<br>
-│ └── dataSample.json<br>
+├── css/ #thư mục chứa file css <br>
+├── images/ #thư mục chứa ảnh <br>
+├── js/ #thư mục chứa file js <br>  
+├── data/ #thư mục chứa data json <br>
 ├── index.html<br>
 ├── news.html<br>
 ├── category.html<br>
