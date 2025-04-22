@@ -1,46 +1,86 @@
-# IE104.P21.VB2
-Github Repo cho đồ án môn học IE104
+# 📰 CarNews - Website Tin Tức Ô Tô
 
-## Danh sách thành viên
-1. Dương Gia Hưng
-2. Trần Hồng Quân
-3. Lê Phong Vũ
-4. Bổ sung thêm
+![Logo-Image](./images/logo-final.webp)
 
-## [Link Demo](https://demo.tagdiv.com/newsmag_cars)
-## Bảng phân công nhiệm vụ
-| Họ và tên | Nhiệm vụ | Hoàn thành |
-| ----------- | ----------- | ----------- |
-| Trần Hồng Quân | HTML CSS cho Trang chủ |  |
-| Dương Gia Hưng | HTML CSS cho trang Tin tức |  |
-| Lê Phong Vũ | HTML CSS cho trang Tin tức |  |
+Một website tin tức về ô tô, được xây dựng bằng **HTML**, **CSS** và **JavaScript**.  
+Website sở hữu thiết kế hiện đại, khả năng tải nội dung động và chức năng tìm kiếm mạnh mẽ.
 
-## Tasklist
-- [ ] File thiết kế Figma
-- [ ] Triển khai code
+---
 
-## Hướng dẫn
-### Cấu trúc Branch
+## 🚀 Tính Năng
 
-1. Branch **master** -> Chứa code đã review
-2. Branch **develop** -> Chứa code chưa review
-3. Branch **feature/[trang con]** -> Chứa code của mỗi thành viên
+- **Thiết Kế Responsive**: Giao diện hoạt động tốt trên nhiều kích cỡ màn hình
+- **Nội Dung Động**: Tải nội dung từ nguồn dữ liệu JSON
+- **Nhiều Mẫu Trang**:
+  - Trang chủ với carousel bài viết nổi bật
+  - Trang chi tiết tin tức có phần bình luận
+  - Duyệt tin theo chuyên mục
+  - Tìm kiếm tin tức
+- **Tương Tác Người Dùng**:
+  - Carousel hình ảnh
+  - Thanh tin tức đang thịnh hành
+  - Điều hướng dễ sử dụng
 
-### Quy trình upload code
+---
 
-1. Tạo feature branch riêng của mỗi người để làm việc
-2. Sau khi code xong. Commit và tạo Pull Request (PR) từ feature branch vào develop để các thành viên review code.
-3. Sau khi PR được approve và merge vào develop, tiến hành kiểm thử tích hợp.
-4. Khi tất cả tính năng hoàn tất, tạo PR từ develop vào main để deploy.
+## 📄 Các Trang
 
-### Cách tạo branch riêng (nên Google thêm)
+- **Trang Chủ** (`index.html`) - Trang chính hiển thị nội dung nổi bật
+- **Trang Chi Tiết Tin Tức** (`news.html`) - Hiển thị bài viết riêng lẻ và bình luận
+- **Trang Chuyên Mục** (`category.html`) - Hiển thị các bài viết theo chuyên mục
+- **Trang Tìm Kiếm** (`search.html`) - Hiển thị kết quả tìm kiếm
 
-1. Clone Repo bằng:
-   `git clone https://github.com/retelesk/IE104.P21.VB2.git`
-2. Thiết lập lại Git user.name và user.email
-   `git config --global user.email <EMAIL>
-   git config --global user.name <USERNAME>`
-3. Tạo feature brand riêng cho mỗi người từ brand develop
-   `git checkout develop
-    git pull origin develop
-    git checkout -b feature/[tên-trang]`
+---
+
+## 🗂️ Cấu Trúc Dự Án
+
+├── css/ #thư mục chứa file css <br>
+├── images/ #thư mục chứa ảnh <br>
+├── js/ #thư mục chứa file js <br>  
+├── data/ #thư mục chứa data json <br>
+├── index.html<br>
+├── news.html<br>
+├── category.html<br>
+├── search.html<br>
+└── README.md<br>
+
+---
+
+## ⚙️ Bắt Đầu
+
+1. **Clone repository** về máy
+2. **Mở bất kỳ file HTML nào** trong trình duyệt để xem website
+
+---
+
+### 📁 Cấu Trúc Nhánh
+
+- `main` – Chứa mã đã được duyệt và kiểm tra
+- `[Các nhánh còn lại]` – Chứa mã đang chờ kiểm tra
+
+---
+
+## 👥 Thành Viên Nhóm
+
+- **Dương Gia Hưng**
+- **Trần Hồng Quân**
+- **Lê Phong Vũ**
+- **Lê Thanh Tùng**
+
+---
+
+## 📋 Phân Công Nhiệm Vụ
+
+| Tên Thành Viên | Nhiệm Vụ                                      | Trạng Thái    |
+| -------------- | --------------------------------------------- | ------------- |
+| Trần Hồng Quân | HTML/CSS/JS cho Trang Chủ                     | Đã hoàn thành |
+| Dương Gia Hưng | Viết document và slide báo cáo                | Đã hoàn thành |
+| Lê Phong Vũ    | HTML/CSS/JS cho Trang Tin Tức/Search/Category | Đã hoàn thành |
+| Lê Thanh Tùng  | Viết document và slide báo cáo                | Đã hoàn thành |
+
+---
+
+## 🔗 Tài Nguyên
+
+- **[Font Awesome](https://fontawesome.com/)** – Thư viện icon
+- **[Google Fonts](https://fonts.google.com/)** – Thư viện font chữ

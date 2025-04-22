@@ -16,7 +16,9 @@
       }
     ],
     "banner": true,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "content": {}
   },
   {
     "id": 2,

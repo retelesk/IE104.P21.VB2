@@ -315,9 +315,13 @@
   text-transform: uppercase;
 }
 
-.comment-section {
+.comment-section,
+.input-comment-section {
   margin-bottom: 10px;
   padding-bottom: 20px;
+}
+
+.input-comment-section {
   border-bottom: 1px solid #e6e6e6d5;
 }
 
@@ -344,7 +348,7 @@ label {
   display: none;
 }
 
-button[type="submit"] {
+#btn-post {
   background-color: #222;
   color: white;
   border: none;
@@ -354,6 +358,9 @@ button[type="submit"] {
   cursor: pointer;
   font-weight: bold;
   letter-spacing: 0.5px;
+}
+#btn-post:hover {
+  background-color: #a801be;
 }
 
 button[type="submit"]:hover {
