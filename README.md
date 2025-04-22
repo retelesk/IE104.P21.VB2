@@ -5,13 +5,6 @@ Website sở hữu thiết kế hiện đại, khả năng tải nội dung đ�
 
 ---
 
-## 🌐 Tổng Quan Website
-
-![Car News](./images/logo-final.webp)<br>
-**CarNews Website**
-
----
-
 ## 🚀 Tính Năng
 
 - **Thiết Kế Responsive**: Giao diện hoạt động tốt trên nhiều kích cỡ màn hình
@@ -46,7 +39,7 @@ Website sở hữu thiết kế hiện đại, khả năng tải nội dung đ�
 │ ├── news.css<br>
 │ ├── category.css<br>
 │ └── search.css<br>
-├── images/<br>  
+├── images/<br>
 │ ├── 100x75/<br>
 │ ├── 1021x580/<br>
 │ └── 150x150/<br>
