@@ -1,5 +1,7 @@
 # 📰 CarNews - Website Tin Tức Ô Tô
 
+![Logo-Image](./images/logo-final.webp)
+
 Một website tin tức về ô tô, được xây dựng bằng **HTML**, **CSS** và **JavaScript**.  
 Website sở hữu thiết kế hiện đại, khả năng tải nội dung động và chức năng tìm kiếm mạnh mẽ.
 
@@ -65,8 +67,6 @@ Website sở hữu thiết kế hiện đại, khả năng tải nội dung đ�
 2. **Mở bất kỳ file HTML nào** trong trình duyệt để xem website
 
 ---
-
-## 🔁 Quy Trình Phát Triển
 
 ### 📁 Cấu Trúc Nhánh
 

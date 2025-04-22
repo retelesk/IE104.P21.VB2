@@ -8,13 +8,10 @@ var displayDt = [];
 //****************Main function********************** */
 document.querySelector(".title-text").innerHTML = keyword;
 document.getElementById("new-cat").innerHTML = keyword;
-async function main() {
+document.addEventListener("DOMContentLoaded", async () => {
   await loadData();
-  displayDt = data.splice(0, 20);
-  displayData(displayDt);
-}
-// Call the main function
-main();
+  displayData(data);
+});
 
 //****************Common function********************** */
 // Get data from JSON file
@@ -31,10 +28,8 @@ async function loadData() {
 // Function to display data
 function displayData(results) {
   const searchResultsContainer = document.getElementById("result-area");
-
   // Clear any existing content
   searchResultsContainer.innerHTML = "";
-
   const resultsHTML = results
     .map((item) => {
       return `

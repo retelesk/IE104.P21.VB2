@@ -5,7 +5,7 @@ const keyword = url.searchParams.get("keyword");
 var data = [];
 let newsData = [];
 
-//****************Main function********************** */
+//****************Event handler********************** */
 document.querySelector("#keyword").innerHTML = keyword;
 document
   .getElementById("page-search-btn")
@@ -27,27 +27,10 @@ document
       location.href = "./search.html?keyword=" + searchValue;
     }
   });
-
-async function main() {
+document.addEventListener("DOMContentLoaded", async () => {
   await loadData();
-  const lowercaseKeyword = keyword.toLowerCase();
-  newsData = data.filter((item) => {
-    return item.title.toLowerCase().includes(lowercaseKeyword);
-  });
-
-  // Display results count
-  if (newsData.length == 0) {
-    document.querySelector("#search-result-text").textContent =
-      "No result found";
-  } else {
-    document.querySelector("#search-result-text").textContent =
-      newsData.length + " results found";
-    // Display the search results
-    displaySearchResults(newsData);
-  }
-}
-// Call the main function
-main();
+  searchAndDisplayResults();
+});
 
 //****************Common function********************** */
 // Get data from JSON file
@@ -60,12 +43,6 @@ async function loadData() {
     console.error("Error loading JSON data:", error);
   }
 }
-
-// Function to search id in the data
-function findObjectById(array, id) {
-  return array.find((obj) => obj.id == id);
-}
-
 // Function to display search results
 function displaySearchResults(results) {
   const searchResultsContainer = document.getElementById("result-area");
@@ -94,4 +71,22 @@ function displaySearchResults(results) {
 
   // Insert the HTML into the container
   searchResultsContainer.innerHTML = resultsHTML;
+}
+// Function search and display results
+function searchAndDisplayResults() {
+  const lowercaseKeyword = keyword.toLowerCase();
+  newsData = data.filter((item) => {
+    return item.title.toLowerCase().includes(lowercaseKeyword);
+  });
+
+  // Display results count
+  if (newsData.length == 0) {
+    document.querySelector("#search-result-text").textContent =
+      "No result found";
+  } else {
+    document.querySelector("#search-result-text").textContent =
+      newsData.length + " results found";
+    // Display the search results
+    displaySearchResults(newsData);
+  }
 }
