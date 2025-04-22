@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // 3. Carousel Initialization with JSON Data
-  fetch("../data/dataSample.json")
+  fetch("./data/dataSample.json")
     .then((response) => response.json())
     .then((data) => {
       // BANNER CAROUSEL
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const itemContent = `
         <div>
-          <img src="${item.thumbnail}" alt="${item.title}">
+          <img src="./${item.thumbnail}" alt="${item.title}">
           <p>${item.title}</p>
         </div>
       `;
