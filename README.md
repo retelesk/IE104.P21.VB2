@@ -1,46 +1,117 @@
-# IE104.P21.VB2
-Github Repo cho đồ án môn học IE104
+# 📰 CarNews - Website Tin Tức Ô Tô
 
-## Danh sách thành viên
-1. Dương Gia Hưng
-2. Trần Hồng Quân
-3. Lê Phong Vũ
-4. Bổ sung thêm
+Một website tin tức về ô tô có khả năng phản hồi, được xây dựng bằng **HTML**, **CSS** và **JavaScript**.  
+Website sở hữu thiết kế hiện đại, sạch sẽ với nhiều mẫu trang, khả năng tải nội dung động và chức năng tìm kiếm mạnh mẽ.
 
-## [Link Demo](https://demo.tagdiv.com/newsmag_cars)
-## Bảng phân công nhiệm vụ
-| Họ và tên | Nhiệm vụ | Hoàn thành |
-| ----------- | ----------- | ----------- |
-| Trần Hồng Quân | HTML CSS cho Trang chủ |  |
-| Dương Gia Hưng | HTML CSS cho trang Tin tức |  |
-| Lê Phong Vũ | HTML CSS cho trang Tin tức |  |
+---
 
-## Tasklist
-- [ ] File thiết kế Figma
-- [ ] Triển khai code
+## 🌐 Tổng Quan Website
 
-## Hướng dẫn
-### Cấu trúc Branch
+![Car News](./images/logo-final.webp)
+**CarNews Website**
 
-1. Branch **master** -> Chứa code đã review
-2. Branch **develop** -> Chứa code chưa review
-3. Branch **feature/[trang con]** -> Chứa code của mỗi thành viên
+---
 
-### Quy trình upload code
+## 🚀 Tính Năng
 
-1. Tạo feature branch riêng của mỗi người để làm việc
-2. Sau khi code xong. Commit và tạo Pull Request (PR) từ feature branch vào develop để các thành viên review code.
-3. Sau khi PR được approve và merge vào develop, tiến hành kiểm thử tích hợp.
-4. Khi tất cả tính năng hoàn tất, tạo PR từ develop vào main để deploy.
+- **Thiết Kế Responsive**: Giao diện hoạt động tốt trên cả máy tính và thiết bị di động
+- **Nội Dung Động**: Tải nội dung từ nguồn dữ liệu JSON
+- **Nhiều Mẫu Trang**:
+  - Trang chủ với carousel bài viết nổi bật
+  - Trang chi tiết tin tức có phần bình luận
+  - Duyệt tin theo chuyên mục
+  - Tìm kiếm tin tức
+- **Tương Tác Người Dùng**:
+  - Carousel hình ảnh
+  - Thanh tin tức đang thịnh hành
+  - Tích hợp mạng xã hội
+  - Điều hướng dễ sử dụng
 
-### Cách tạo branch riêng (nên Google thêm)
+---
 
-1. Clone Repo bằng:
-   `git clone https://github.com/retelesk/IE104.P21.VB2.git`
-2. Thiết lập lại Git user.name và user.email
-   `git config --global user.email <EMAIL>
-   git config --global user.name <USERNAME>`
-3. Tạo feature brand riêng cho mỗi người từ brand develop
-   `git checkout develop
-    git pull origin develop
-    git checkout -b feature/[tên-trang]`
+## 📄 Các Trang
+
+- **Trang Chủ** (`index.html`) - Trang chính hiển thị nội dung nổi bật
+- **Trang Chi Tiết Tin Tức** (`news.html`) - Hiển thị bài viết riêng lẻ và bình luận
+- **Trang Chuyên Mục** (`category.html`) - Hiển thị các bài viết theo chuyên mục
+- **Trang Tìm Kiếm** (`search.html`) - Hiển thị kết quả tìm kiếm
+
+---
+
+## 🗂️ Cấu Trúc Dự Án
+
+├── css/ # Stylesheet files
+│ ├── resetCss.css # CSS reset
+│ ├── universal.css # Shared styles
+│ ├── home.css # Homepage specific styles
+│ ├── news.css # News page styles
+│ ├── category.css # Category page styles
+│ └── search.css # Search page styles
+├── images/ # Image assets
+│ ├── 100x75/ # Image thumbnails
+│ ├── 1021x580/ # Banner images
+│ └── 150x150/ # Profile images
+├── js/ # JavaScript files
+│ ├── homePage.js # Homepage functionality
+│ ├── headerOtherPage.js # Header functionality for secondary pages
+│ ├── news.js # News page functionality
+│ ├── search.js # Search functionality
+│ └── category.js # Category page functionality
+├── data/ # Data files
+│ └── dataSample.json # Sample article data
+├── index.html # Homepage
+├── news.html # News article template
+├── category.html # Category page template
+├── search.html # Search results template
+└── README.md # Project documentation
+
+---
+
+## ⚙️ Bắt Đầu
+
+1. **Clone repository** về máy
+2. **Mở bất kỳ file HTML nào** trong trình duyệt để xem website
+3. Không cần thiết lập máy chủ – đây là website tĩnh
+
+---
+
+## 🔁 Quy Trình Phát Triển
+
+### 📁 Cấu Trúc Nhánh
+
+- `master` – Chứa mã đã được duyệt và kiểm tra
+- `develop` – Chứa mã đang chờ kiểm tra
+- `feature/[page-name]` – Nhánh chức năng riêng biệt cho từng trang
+
+### 👨‍💻 Quy Trình Đóng Góp Mã
+
+1. Tạo nhánh riêng từ `develop`
+2. Sau khi lập trình, commit và tạo Pull Request (PR) về `develop` để được duyệt
+3. Sau khi PR được duyệt và merge, kiểm tra lại tích hợp
+4. Khi tất cả chức năng hoàn thiện, tạo PR từ `develop` sang `master` để triển khai chính thức
+
+---
+
+## 👥 Thành Viên Nhóm
+
+- **Dương Gia Hưng**
+- **Trần Hồng Quân**
+- **Lê Phong Vũ**
+
+---
+
+## 📋 Phân Công Nhiệm Vụ
+
+| Tên Thành Viên | Nhiệm Vụ                   | Trạng Thái       |
+| -------------- | -------------------------- | ---------------- |
+| Trần Hồng Quân | HTML/CSS cho Trang Chủ     | ✅ Đã hoàn thành |
+| Dương Gia Hưng | HTML/CSS cho Trang Tin Tức | ✅ Đã hoàn thành |
+| Lê Phong Vũ    | HTML/CSS cho Trang Tin Tức | ✅ Đã hoàn thành |
+
+---
+
+## 🔗 Tài Nguyên
+
+- **Demo Website** (nếu có link)
+- **[Font Awesome](https://fontawesome.com/)** – Thư viện icon
+- **[Google Fonts](https://fonts.google.com/)** – Thư viện font chữ
