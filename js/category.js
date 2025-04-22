@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 async function loadData() {
   try {
     // Fetch data from the JSON file
-    const response = await fetch("data/dataSample.json");
+    const response = await fetch("./data/dataSample.json");
     data = await response.json();
   } catch (error) {
     console.error("Error loading JSON data:", error);
