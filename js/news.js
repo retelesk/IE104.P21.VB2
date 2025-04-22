@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   loadImageAndTitle();
   loadComment();
 });
-document.getElementById("btn-post").addEventListener("click", () => {
+document.getElementById("btn-post").addEventListener("click", async () => {
   //get data from input
   comment.name = document.getElementById("name").value;
   comment.text = document.getElementById("comment").value;
@@ -25,13 +25,14 @@ document.getElementById("btn-post").addEventListener("click", () => {
     alert("Please fill in all fields.");
     return;
   }
+  //create avatar
+  const avatar = await generateAvatar(comment.name);
+  console.log(avatar);
+
   //add comment to the newsData
   let commentHtml = `<div class="comment">
                   <div class="comment-avatar">
-                    <img
-                      src="https://avatar.iran.liara.run/username?username=${comment.name}"
-                      alt="avatar"
-                    />
+                    ${avatar}
                   </div>
                   <div class="comment-text">
                     <div class="comment-name"><p>${comment.name}</p></div>
@@ -123,4 +124,17 @@ function loadBreadcrumb() {
   document
     .getElementById("bc-cat")
     .setAttribute("href", `./category.html?cat=${newsData.category}`);
+}
+//create avatar
+async function generateAvatar(name) {
+  const url = `https://avatar.iran.liara.run/username?username=${name}`;
+  try {
+    const res = await fetch(url);
+    const blob = await res.blob();
+    const imgURL = URL.createObjectURL(blob);
+    return `<img src="${imgURL}" alt="${name}'s avatar">`;
+  } catch (err) {
+    console.error("Failed to load avatar:", err);
+    return "";
+  }
 }
