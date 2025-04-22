@@ -17,8 +17,8 @@
     ],
     "banner": true,
     "trending": true,
-    "category": "Car News",
-    "content": {}
+    "category": "Reviews",
+    "recommended": true
   },
   {
     "id": 2,
@@ -26,7 +26,9 @@
     "thumbnail": "./images/1021x580/02.jpg",
     "commentCount": [],
     "banner": true,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 3,
@@ -40,7 +42,9 @@
       }
     ],
     "banner": true,
-    "trending": true
+    "trending": true,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 4,
@@ -54,7 +58,7 @@
       },
       {
         "avatar": "https://avatar.iran.liara.run/public/5",
-        "comment": "What oil viscosity do you recommend?",
+        "comment": "What oil viscosity do you recommended?",
         "name": "David Park"
       },
       {
@@ -64,15 +68,19 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 5,
-    "title": "400 HP Quad-Turbo BMW Diesel is Ready and Around the Corner",
+    "title": "400 HP Quad-Turbo BMW Diesel is Ready",
     "thumbnail": "./images/1021x580/05.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 6,
@@ -86,7 +94,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 7,
@@ -94,7 +104,9 @@
     "thumbnail": "./images/1021x580/07.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 8,
@@ -113,7 +125,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 9,
@@ -121,7 +135,9 @@
     "thumbnail": "./images/1021x580/09.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 10,
@@ -135,7 +151,9 @@
       }
     ],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 11,
@@ -143,7 +161,9 @@
     "thumbnail": "./images/1021x580/11.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 12,
@@ -162,7 +182,9 @@
       }
     ],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 13,
@@ -170,7 +192,9 @@
     "thumbnail": "./images/1021x580/13.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 14,
@@ -178,7 +202,9 @@
     "thumbnail": "./images/1021x580/14.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 15,
@@ -192,7 +218,9 @@
       }
     ],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 16,
@@ -200,7 +228,9 @@
     "thumbnail": "./images/1021x580/16.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 17,
@@ -219,7 +249,9 @@
       }
     ],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 18,
@@ -227,7 +259,9 @@
     "thumbnail": "./images/1021x580/18.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
   },
   {
     "id": 19,
@@ -235,7 +269,9 @@
     "thumbnail": "./images/1021x580/19.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 20,
@@ -249,7 +285,9 @@
       }
     ],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 21,
@@ -263,7 +301,9 @@
       }
     ],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 22,
@@ -282,7 +322,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Reviews",
+    "recommended": true
   },
   {
     "id": 23,
@@ -290,7 +332,9 @@
     "thumbnail": "./images/1021x580/23.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 24,
@@ -304,7 +348,9 @@
       }
     ],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 25,
@@ -318,7 +364,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 26,
@@ -326,7 +374,9 @@
     "thumbnail": "./images/1021x580/01.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 27,
@@ -345,7 +395,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 28,
@@ -353,7 +405,9 @@
     "thumbnail": "./images/1021x580/03.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 29,
@@ -367,7 +421,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 30,
@@ -375,7 +431,9 @@
     "thumbnail": "./images/1021x580/05.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 31,
@@ -389,7 +447,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 32,
@@ -397,7 +457,9 @@
     "thumbnail": "./images/1021x580/07.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 33,
@@ -416,7 +478,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 34,
@@ -424,7 +488,9 @@
     "thumbnail": "./images/1021x580/09.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
   },
   {
     "id": 35,
@@ -438,7 +504,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": true
   },
   {
     "id": 36,
@@ -446,7 +514,9 @@
     "thumbnail": "./images/1021x580/11.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 37,
@@ -465,7 +535,9 @@
       }
     ],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 38,
@@ -473,7 +545,9 @@
     "thumbnail": "./images/1021x580/13.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 39,
@@ -487,7 +561,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 40,
@@ -495,7 +571,9 @@
     "thumbnail": "./images/1021x580/15.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
   },
   {
     "id": 41,
@@ -509,7 +587,9 @@
       }
     ],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 42,
@@ -517,7 +597,9 @@
     "thumbnail": "./images/1021x580/17.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 43,
@@ -536,7 +618,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Reviews",
+    "recommended": true
   },
   {
     "id": 44,
@@ -544,7 +628,9 @@
     "thumbnail": "./images/1021x580/19.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 45,
@@ -558,7 +644,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 46,
@@ -566,7 +654,9 @@
     "thumbnail": "./images/1021x580/21.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 47,
@@ -580,7 +670,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Reviews",
+    "recommended": false
   },
   {
     "id": 48,
@@ -588,7 +680,9 @@
     "thumbnail": "./images/1021x580/23.jpg",
     "commentCount": [],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   },
   {
     "id": 49,
@@ -607,7 +701,9 @@
       }
     ],
     "banner": false,
-    "trending": true
+    "trending": true,
+    "category": "Car News",
+    "recommended": false
   },
   {
     "id": 50,
@@ -621,6 +717,206 @@
       }
     ],
     "banner": false,
-    "trending": false
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
+  },
+  {
+    "id": 51,
+    "title": "Best End-of-Year Car Deals for 2023",
+    "thumbnail": "./images/1021x580/01.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/40",
+        "comment": "Just saved $3000 on my new Accord!",
+        "name": "Jennifer Davis"
+      }
+    ],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": true
+  },
+  {
+    "id": 52,
+    "title": "10 Best Car Lease Deals Under $300/Month",
+    "thumbnail": "./images/1021x580/02.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
+  },
+  {
+    "id": 53,
+    "title": "Black Friday Car Accessory Sales 2023",
+    "thumbnail": "./images/1021x580/03.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/41",
+        "comment": "The Weathertech deal is amazing",
+        "name": "Carlos Ramirez"
+      }
+    ],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
+  },
+  {
+    "id": 54,
+    "title": "Zero-Interest Financing: Best Manufacturer Offers",
+    "thumbnail": "./images/1021x580/04.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
+  },
+  {
+    "id": 55,
+    "title": "Cheapest SUVs to Insure in 2023",
+    "thumbnail": "./images/1021x580/05.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/42",
+        "comment": "Switched to the Mazda CX-5 and saved big",
+        "name": "Rebecca Taylor"
+      }
+    ],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": true
+  },
+  {
+    "id": 56,
+    "title": "Best Deals on Electric Vehicle Home Chargers",
+    "thumbnail": "./images/1021x580/06.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
+  },
+  {
+    "id": 57,
+    "title": "Summer Tire Sale Roundup: Top Discounts",
+    "thumbnail": "./images/1021x580/07.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/43",
+        "comment": "Got Michelin Pilot Sports for 20% off!",
+        "name": "Grant Harrison"
+      }
+    ],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
+  },
+  {
+    "id": 58,
+    "title": "Affordable Performance Cars Under $35,000",
+    "thumbnail": "./images/1021x580/08.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
+  },
+  {
+    "id": 59,
+    "title": "Year-End Luxury Car Clearance Deals",
+    "thumbnail": "./images/1021x580/09.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/44",
+        "comment": "Dealer was willing to negotiate even more",
+        "name": "Heather Mitchell"
+      }
+    ],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
+  },
+  {
+    "id": 60,
+    "title": "Best Car Subscription Services Compared",
+    "thumbnail": "./images/1021x580/10.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
+  },
+  {
+    "id": 61,
+    "title": "Cashback Credit Cards for Gas Purchases",
+    "thumbnail": "./images/1021x580/11.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/45",
+        "comment": "Saved over $300 last year with the Costco card",
+        "name": "Justin Moore"
+      }
+    ],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
+  },
+  {
+    "id": 62,
+    "title": "Used Car Bargains: 5-Year-Old Luxury Cars",
+    "thumbnail": "./images/1021x580/12.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false,
+    "category": "Deals",
+    "recommended": false
+  },
+  {
+    "id": 63,
+    "title": "How to Clean Fuel Injectors at Home",
+    "thumbnail": "./images/1021x580/13.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/46",
+        "comment": "Fixed my rough idle issue",
+        "name": "Andrew Collins"
+      }
+    ],
+    "banner": false,
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
+  },
+  {
+    "id": 64,
+    "title": "Diagnosing and Fixing Car A/C Problems",
+    "thumbnail": "./images/1021x580/14.jpg",
+    "commentCount": [],
+    "banner": false,
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
+  },
+  {
+    "id": 65,
+    "title": "Performance Brake Upgrade Guide",
+    "thumbnail": "./images/1021x580/15.jpg",
+    "commentCount": [
+      {
+        "avatar": "https://avatar.iran.liara.run/public/47",
+        "comment": "The Brembo kit made a huge difference",
+        "name": "Kayla Peterson"
+      }
+    ],
+    "banner": false,
+    "trending": false,
+    "category": "Turning",
+    "recommended": false
   }
 ]

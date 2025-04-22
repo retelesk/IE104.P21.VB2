@@ -2,7 +2,7 @@
 
 ![Logo-Image](./images/logo-final.webp)
 
-**[Car News](https://retelesk.github.io/IE104.P21.VB2/)**
+**[Car News](https://retelesk.github.io/IE104.P21.VB2/)**  
 Một website tin tức về ô tô, được xây dựng bằng **HTML**, **CSS** và **JavaScript**.  
 Website sở hữu thiết kế hiện đại, khả năng tải nội dung động và chức năng tìm kiếm mạnh mẽ.
 

@@ -12,6 +12,7 @@ let comment = {
 document.addEventListener("DOMContentLoaded", async () => {
   await loadData();
   newsData = findObjectById(data, id);
+  loadBreadcrumb();
   loadImageAndTitle();
   loadComment();
 });
@@ -115,4 +116,11 @@ function loadComment() {
     })
     .join("");
   document.getElementById("comment-area").innerHTML = result;
+}
+//load breadcrumb
+function loadBreadcrumb() {
+  document.getElementById("bc-cat").innerHTML = newsData.category;
+  document
+    .getElementById("bc-cat")
+    .setAttribute("href", `./category.html?cat=${newsData.category}`);
 }

@@ -9,7 +9,12 @@ document.querySelector(".title-text").innerHTML = keyword;
 document.getElementById("new-cat").innerHTML = keyword;
 document.addEventListener("DOMContentLoaded", async () => {
   await loadData();
-  displayData(data);
+  // Filter data based on the keyword
+  displayDt = data.filter((item) => {
+    return item.category == keyword;
+  });
+  //display data
+  displayData(displayDt);
 });
 //****************Common function********************** */
 // Get data from JSON file
