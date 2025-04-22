@@ -40,20 +40,31 @@ Website sở hữu thiết kế hiện đại, sạch sẽ với nhiều mẫu t
 
 ## 🗂️ Cấu Trúc Dự Án
 
-├── css/ \# Stylesheet files │ ├── resetCss.css \# CSS reset │ ├──
-universal.css \# Shared styles │ ├── home.css \# Homepage specific
-styles │ ├── news.css \# News page styles │ ├── category.css \# Category
-page styles │ └── search.css \# Search page styles ├── images/ \# Image
-assets │ ├── 100x75/ \# Image thumbnails │ ├── 1021x580/ \# Banner
-images │ └── 150x150/ \# Profile images ├── js/ \# JavaScript files │
-├── homePage.js \# Homepage functionality │ ├── headerOtherPage.js \#
-Header functionality for secondary pages │ ├── news.js \# News page
-functionality │ ├── search.js \# Search functionality │ └── category.js
-\# Category page functionality ├── data/ \# Data files │ └──
-dataSample.json \# Sample article data ├── index.html \# Homepage ├──
-news.html \# News article template ├── category.html \# Category page
-template ├── search.html \# Search results template └── README.md \#
-Project documentation
+.
+├── css/  
+│ ├── resetCss.css  
+│ ├── universal.css  
+│ ├── home.css  
+│ ├── news.css  
+│ ├── category.css  
+│ └── search.css  
+├── images/  
+│ ├── 100x75/  
+│ ├── 1021x580/  
+│ └── 150x150/  
+├── js/  
+│ ├── homePage.js  
+│ ├── headerOtherPage.js  
+│ ├── news.js  
+│ ├── search.js  
+│ └── category.js  
+├── data/  
+│ └── dataSample.json  
+├── index.html  
+├── news.html  
+├── category.html  
+├── search.html  
+└── README.md
 
 ---
 
