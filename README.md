@@ -41,30 +41,30 @@ Website sở hữu thiết kế hiện đại, sạch sẽ với nhiều mẫu t
 ## 🗂️ Cấu Trúc Dự Án
 
 .
-├── css/  
-│ ├── resetCss.css  
-│ ├── universal.css  
-│ ├── home.css  
-│ ├── news.css  
-│ ├── category.css  
-│ └── search.css  
-├── images/  
-│ ├── 100x75/  
-│ ├── 1021x580/  
-│ └── 150x150/  
-├── js/  
-│ ├── homePage.js  
-│ ├── headerOtherPage.js  
-│ ├── news.js  
-│ ├── search.js  
-│ └── category.js  
-├── data/  
-│ └── dataSample.json  
-├── index.html  
-├── news.html  
-├── category.html  
-├── search.html  
-└── README.md
+├── css/<br>
+│ ├── resetCss.css<br>
+│ ├── universal.css<br>
+│ ├── home.css<br>
+│ ├── news.css<br>
+│ ├── category.css<br>
+│ └── search.css<br>
+├── images/<br>  
+│ ├── 100x75/ <br>
+│ ├── 1021x580/ <br>
+│ └── 150x150/ <br>
+├── js/ <br>
+│ ├── homePage.js <br>
+│ ├── headerOtherPage.js <br>
+│ ├── news.js <br>
+│ ├── search.js <br>
+│ └── category.js <br>
+├── data/ <br>
+│ └── dataSample.json <br>
+├── index.html <br>
+├── news.html <br>
+├── category.html <br>
+├── search.html <br>
+└── README.md<br>
 
 ---
 
