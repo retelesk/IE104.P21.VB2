@@ -35,7 +35,7 @@
       <div class="header-menu">
         <div class="hearder-nav">
           <!-- Logo Site -->
-          <a clas="header-logo" href="./index.html"
+          <a class="header-logo" href="./index.html"
             ><img src="./images/logo-final.webp"
           /></a>
           <!-- NAV Bar chính -->
@@ -67,7 +67,7 @@
             <input
               type="text"
               name="search"
-              value
+
               autocomplete="off"
               class="searchBox"
             />
@@ -516,14 +516,13 @@
           <h2>Video News</h2>
         </div>
         <div class="videoNews-player">
-          <iframe
-            src="https://www.youtube.com/embed/SNnGcyp7vF4?si=dU_KRZQX_C0vBEAe"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+          <!-- Trình phát video chính -->
+          <div class="video-player">
+            <iframe id="main-video" src="" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          <!-- Danh sách phát (sẽ được tạo bằng JS) -->
+          <div class="playlist"></div>
         </div>
       </section>
       <!-- Section LASTEST ARTICLES -->
@@ -837,7 +836,8 @@
         </div>
       </footer>
     </div>
+    <script src="./js/homePage.js"></script>
+    <script src="./js/headerOtherPage.js"></script>
   </body>
-  <script src="./js/homePage.js"></script>
-  <script src="./js/headerOtherPage.js"></script>
+
 </html>
