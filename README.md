@@ -21,6 +21,7 @@ Website sở hữu thiết kế hiện đại, khả năng tải nội dung đ�
   - Carousel hình ảnh
   - Thanh tin tức đang thịnh hành
   - Điều hướng dễ sử dụng
+  - Có hỗ trợ video
 
 ---
 
@@ -30,7 +31,7 @@ Website sở hữu thiết kế hiện đại, khả năng tải nội dung đ�
 - **Trang Chi Tiết Tin Tức** (`news.html`) - Hiển thị bài viết riêng lẻ và bình luận
 - **Trang Chuyên Mục** (`category.html`) - Hiển thị các bài viết theo chuyên mục
 - **Trang Tìm Kiếm** (`search.html`) - Hiển thị kết quả tìm kiếm
-
+- **Trang Giới thiệu** (`about.html`) - Hiển thị thông tin về CarNews
 ---
 
 ## 🗂️ Cấu Trúc Dự Án
@@ -43,6 +44,7 @@ Website sở hữu thiết kế hiện đại, khả năng tải nội dung đ�
 ├── news.html<br>
 ├── category.html<br>
 ├── search.html<br>
+├── about.html<br>
 └── README.md<br>
 
 ---
