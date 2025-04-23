@@ -454,11 +454,6 @@ a:visited {
 .category-number {
   font-size: inherit;
 }
-.header-bar {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
 
 /* MEDIA QUERIES */
 
