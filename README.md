@@ -75,7 +75,7 @@ Website sở hữu thiết kế hiện đại, khả năng tải nội dung đ�
 | Tên Thành Viên | Nhiệm Vụ                                      | Trạng Thái    |
 | -------------- | --------------------------------------------- | ------------- |
 | Trần Hồng Quân | HTML/CSS/JS cho Trang Chủ                     | Đã hoàn thành |
-| Dương Gia Hưng | Viết document và slide báo cáo                | Đã hoàn thành |
+| Dương Gia Hưng | HTML/CSS/JS cho trang About Us, slide báo cáo | Đã hoàn thành |
 | Lê Phong Vũ    | HTML/CSS/JS cho Trang Tin Tức/Search/Category | Đã hoàn thành |
 | Lê Thanh Tùng  | Viết document và slide báo cáo                | Đã hoàn thành |
 
