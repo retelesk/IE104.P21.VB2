@@ -43,6 +43,12 @@ async function loadData() {
     console.error("Error loading JSON data:", error);
   }
 }
+
+// Function to search id in the data
+function findObjectById(array, id) {
+  return array.find((obj) => obj.id == id);
+}
+
 // Function to display search results
 function displaySearchResults(results) {
   const searchResultsContainer = document.getElementById("result-area");

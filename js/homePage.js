@@ -28,10 +28,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // 3. Carousel Initialization with JSON Data
-  fetch("data/dataSample.json")
+  fetch("../data/dataSample.json")
     .then((response) => response.json())
     .then((data) => {
-      data = data;
       // BANNER CAROUSEL
       const bannerItems = data.filter((item) => item.banner);
       if (bannerItems.length > 0) {
@@ -49,72 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("No trending articles found");
         document.querySelector(".section-trending").style.display = "none";
       }
-
-      //load must read
-      let newsData = data.slice(0, 15);
-      let newDataHtml = newsData
-        .map((news) => {
-          return `<a class="mustRead-item" href="./news.html?id=${news.id}">
-            <img
-              src="${news.thumbnail}"
-              alt="Must Read section images"
-              class="mustRead-img"
-            />
-            <h3 class="mustRead-title">
-              ${news.title}
-            </h3>
-          </a>`;
-        })
-        .join("");
-      document.querySelector(".mustRead-lists").innerHTML = newDataHtml;
-      //load recommended
-      let recommended = data.filter((item) => item.recommended);
-      let recommendedHtml = recommended
-        .map((news) => {
-          return `<a href="./news.html?id=${news.id}" class="recommended-item">
-              <img
-                src="${news.thumbnail}"
-                alt="thumbnail"
-                class="recommended-img"
-              />
-              <h3 class="recommended-title">
-                ${news.title}
-              </h3>
-              <div class="recommended-meta-info">
-                <p class="recommended-author">Le Phong Vu</p>
-                <p class="recommended-date">April 10, 2025</p>
-                <div class="recommended-comments-box">
-                  <p class="recommended-comments">${news.commentCount.length}</p>
-                </div>
-              </div>
-            </a>`;
-        })
-        .join("");
-      document.querySelector(".recommended-lists").innerHTML = recommendedHtml;
-      //load latest
-      let latest = data.slice(0, 9);
-      let latestHtml = latest
-        .map((news) => {
-          return `<a href="./news.html?id=${news.id}" class="lastestArticles-item">
-            <img
-              src="${news.thumbnail}"
-              alt="thumbnail"
-              class="lastestArticles-img"
-            />
-            <h3 class="lastestArticles-title">
-              ${news.title}
-            </h3>
-            <div class="lastestArticles-meta-info">
-              <p class="lastestArticles-author">Le Phong Vu</p>
-              <p class="lastestArticles-date">April 10, 2025</p>
-              <div class="lastestArticles-comments-box">
-                <p class="lastestArticles-comments">${news.commentCount.length}</p>
-              </div>
-            </div>
-          </a>`;
-        })
-        .join("");
-      document.querySelector(".lastestArticles-lists").innerHTML = latestHtml;
     })
     .catch((error) => {
       console.error("Error loading JSON data:", error);
@@ -141,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const itemContent = `
         <div>
-          <img src="./${item.thumbnail}" alt="${item.title}">
+          <img src="${item.thumbnail}" alt="${item.title}">
           <p>${item.title}</p>
         </div>
       `;
@@ -259,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <h3 class="trending-title">${article.title}</h3>
         <div class="trending-meta-info">
           <p class="trending-author">${
-            article.author?.name || "Le Phong Vu"
+            article.author?.name || "George Williams"
           }</p>
           <p class="trending-date">${articleDate}</p>
           <div class="trending-comments-box">

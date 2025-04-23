@@ -2,8 +2,8 @@
 //*****************Global variables******************/
 var data = [];
 let newsData = null;
-const url = new URL(window.location.href);
-const id = url.searchParams.get("id");
+  const url = new URL(window.location.href);
+  const id = url.searchParams.get("id");
 let comment = {
   name: "",
   text: "",
@@ -69,6 +69,7 @@ function loadImageAndTitle() {
   }
   //load prev and next article
   const currentIndex = data.findIndex((item) => item.id === newsData.id);
+
   if (currentIndex == 0) {
     document.getElementById(
       "next-article"
