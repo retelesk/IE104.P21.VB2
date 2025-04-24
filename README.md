@@ -32,13 +32,14 @@ Website sở hữu thiết kế hiện đại, khả năng tải nội dung đ�
 - **Trang Chuyên Mục** (`category.html`) - Hiển thị các bài viết theo chuyên mục
 - **Trang Tìm Kiếm** (`search.html`) - Hiển thị kết quả tìm kiếm
 - **Trang Giới thiệu** (`about.html`) - Hiển thị thông tin về CarNews
+
 ---
 
 ## 🗂️ Cấu Trúc Dự Án
 
 ├── css/ #thư mục chứa file css <br>
 ├── images/ #thư mục chứa ảnh <br>
-├── js/ #thư mục chứa file js <br>  
+├── js/ #thư mục chứa file js <br>
 ├── data/ #thư mục chứa data json <br>
 ├── index.html<br>
 ├── news.html<br>
