@@ -2,50 +2,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const TRENDING_ITEMS_PER_PAGE = 6;
   const TRENDING_TITLE_CHANGE_INTERVAL = 3000;
 
-  fetch('./data/videoNews.json')
-      .then((response) => response.json())
-      .then((videos) => {
-        const player = document.getElementById("main-video");
-        const playlist = document.querySelector(".playlist");
-        playlist.innerHTML = "";
-
-        videos.forEach((video, index) => {
-          const item = document.createElement("div");
-          item.className = "playlist-item" + (index === 0 ? " active" : "");
-          item.setAttribute("data-video-id", video.id);
-
-          item.innerHTML = `
-        <img src="https://img.youtube.com/vi/${video.id}/default.jpg" alt="">
-        <div class="playlist-title">${video.title}</div>
-      `;
-
-          item.addEventListener("click", function () {
-            player.src = `https://www.youtube.com/embed/${video.id}`;
-            document
-                .querySelectorAll(".playlist-item")
-                .forEach(el => el.classList.remove("active"));
-            this.classList.add("active");
-          });
-
-          playlist.appendChild(item);
-
-          if (index === 0) {
-            player.src = `https://www.youtube.com/embed/${video.id}`;
-          }
-        });
-      })
-      .catch((error) => console.error("Error loading video news:", error));
+  
 
   // 1. Search Form in Header Menu
-  const searchButton = document.getElementById("header-search");
-  if (searchButton) {
-    searchButton.addEventListener("click", function () {
-      console.log("button clicked");
-      document
-        .getElementById("header-search-form")
-        .classList.toggle("disabled");
-    });
-  }
+  // const searchButton = document.getElementById("header-search");
+  // if (searchButton) {
+  //   searchButton.addEventListener("click", function () {
+  //     console.log("button clicked");
+  //     document
+  //       .getElementById("header-search-form")
+  //       .classList.toggle("disabled");
+  //   });
+  // }
 
   // 2. Back-to-top Button
   const backToTopBtn = document.getElementById("backToTopBtn");
@@ -401,16 +369,37 @@ document.addEventListener("DOMContentLoaded", function () {
     // Initialize
     updatePagination();
   }
-  const playlistItems = document.querySelectorAll(".playlist-item");
-  const player = document.getElementById("main-video");
-  playlistItems.forEach(item => {
-    item.addEventListener("click", function() {
-      const videoId = this.getAttribute("data-video-id");
-      player.src = `https://www.youtube.com/embed/${videoId}`;
-      playlistItems.forEach(item => {
-        item.classList.remove("active");
-      });
-      this.classList.add("active");
-    });
-  });
+fetch('./data/videoNews.json')
+      .then((response) => response.json())
+      .then((videos) => {
+        const player = document.getElementById("main-video");
+        const playlist = document.querySelector(".playlist");
+        playlist.innerHTML = "";
+
+        videos.forEach((video, index) => {
+          const item = document.createElement("div");
+          item.className = "playlist-item" + (index === 0 ? " active" : "");
+          item.setAttribute("data-video-id", video.id);
+
+          item.innerHTML = `
+        <img src="https://img.youtube.com/vi/${video.id}/default.jpg" alt="">
+        <div class="playlist-title">${video.title}</div>
+      `;
+
+          item.addEventListener("click", function () {
+            player.src = `https://www.youtube.com/embed/${video.id}`;
+            document
+                .querySelectorAll(".playlist-item")
+                .forEach(el => el.classList.remove("active"));
+            this.classList.add("active");
+          });
+
+          playlist.appendChild(item);
+
+          if (index === 0) {
+            player.src = `https://www.youtube.com/embed/${video.id}`;
+          }
+        });
+      })
+      .catch((error) => console.error("Error loading video news:", error));
 });
