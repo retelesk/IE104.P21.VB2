@@ -1,49 +1,43 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Open search box when search icon is clicked
-  document
-    .getElementById("header-search")
-    .addEventListener("click", function (event) {
-      document
-        .getElementById("header-search-form")
-        .classList.remove("disabled");
-      event.stopPropagation();
-    });
+  const searchIcon = document.getElementById("header-search");
+  const searchForm = document.getElementById("header-search-form");
+  const searchInput = document.querySelector(".searchBox");
+  const searchButton = document.querySelector(".searchBtn");
 
-  // Search functionality when search button is clicked
-  document.querySelector(".searchBtn").addEventListener("click", function () {
-    document.getElementById("header-search-form").classList.add("disabled");
-    let searchValue = document.querySelector(".searchBox").value;
-    if (searchValue == "") {
-      searchValue = " ";
-    }
-    location.href = "./search.html?keyword=" + searchValue;
+  if (!searchIcon || !searchForm || !searchInput || !searchButton) return;
+
+  // Hàm xử lý tìm kiếm
+  function handleSearch() {
+    const value = searchInput.value.trim();
+    const keyword = value === "" ? " " : value;
+    searchForm.classList.add("disabled");
+    location.href = "./search.html?keyword=" + keyword;
+  }
+
+  // Bấm vào icon kính lúp để hiện form
+  searchIcon.addEventListener("click", function (event) {
+    searchForm.classList.remove("disabled");
+    event.stopPropagation();
   });
 
-  // Search functionality when Enter key is pressed
-  document
-    .querySelector(".searchBox")
-    .addEventListener("keypress", function (e) {
-      if (e.key === "Enter") {
-        document.getElementById("header-search-form").classList.add("disabled");
-        let searchValue = document.querySelector(".searchBox").value;
-        if (searchValue == "") {
-          searchValue = " ";
-        }
-        location.href = "./search.html?keyword=" + searchValue;
-      }
-    });
+  // Bấm nút "Search"
+  searchButton.addEventListener("click", handleSearch);
 
-  // Prevent search box from closing when clicking inside it
-  document
-    .getElementById("header-search-form")
-    .addEventListener("click", function (event) {
-      event.stopPropagation();
-    });
+  // Nhấn phím Enter
+  searchInput.addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+      e.preventDefault(); // Ngăn reload nếu form nằm trong <form>
+      handleSearch();
+    }
+  });
 
-  // Close search box when clicking anywhere else on the document
-  document.addEventListener("click", function (event) {
-    // Check if search form is open (doesn't have 'disabled' class)
-    const searchForm = document.getElementById("header-search-form");
+  // Bấm trong form không bị đóng
+  searchForm.addEventListener("click", function (event) {
+    event.stopPropagation();
+  });
+
+  // Bấm ngoài form sẽ ẩn nó nếu đang mở
+  document.addEventListener("click", function () {
     if (!searchForm.classList.contains("disabled")) {
       searchForm.classList.add("disabled");
     }
